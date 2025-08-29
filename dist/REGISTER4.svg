@@ -1,0 +1,127 @@
+<svg xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" width="750px" viewBox="-114 -137 527 355">
+<g stroke-linecap="square">
+<path d="M 0,160 L 140,160" stroke="#0000b2" stroke-width="4.0" fill="none" class="D2"/>
+<path d="M 260,100 L 300,100" stroke="#0000b2" stroke-width="4.0" fill="none" class="register1_OUT0"/>
+<path d="M 120,-40 L 120,100 L 140,100" stroke="#0000b2" stroke-width="4.0" fill="none" class="LOAD"/>
+<path d="M 260,-40 L 300,-40" stroke="#0000b2" stroke-width="4.0" fill="none" class="register0_OUT0"/>
+<path d="M 0,-40 L 80,-40 L 80,0 L 140,0" stroke="#0000b2" stroke-width="4.0" fill="none" class="CLR"/>
+<path d="M 0,200 L 20,200 L 20,180 L 140,180" stroke="#0000b2" stroke-width="4.0" fill="none" class="D3"/>
+<path d="M 80,0 L 80,140 L 140,140" stroke="#0000b2" stroke-width="4.0" fill="none" class="CLR"/>
+<path d="M 0,-80 L 100,-80 L 100,-20 L 140,-20" stroke="#0000b2" stroke-width="4.0" fill="none" class="CLK"/>
+<path d="M 260,-20 L 280,-20 L 280,0 L 300,0" stroke="#0000b2" stroke-width="4.0" fill="none" class="register0_OUT1"/>
+<path d="M 0,20 L 140,20" stroke="#0000b2" stroke-width="4.0" fill="none" class="D0"/>
+<path d="M 0,-120 L 120,-120 L 120,-40 L 140,-40" stroke="#0000b2" stroke-width="4.0" fill="none" class="LOAD"/>
+<path d="M 260,120 L 280,120 L 280,140 L 300,140" stroke="#0000b2" stroke-width="4.0" fill="none"/>
+<path d="M 100,-20 L 100,120 L 140,120" stroke="#0000b2" stroke-width="4.0" fill="none" class="CLK"/>
+<path d="M 0,60 L 20,60 L 20,40 L 140,40" stroke="#0000b2" stroke-width="4.0" fill="none" class="D1"/>
+<g>
+<circle cx="80.0" cy="0.0" r="4.0" stroke="#0000b2" stroke-width="4.0" fill="#0000b2" class="CLR"/>
+<circle cx="120.0" cy="-40.0" r="4.0" stroke="#0000b2" stroke-width="4.0" fill="#0000b2" class="LOAD"/>
+<circle cx="100.0" cy="-20.0" r="4.0" stroke="#0000b2" stroke-width="4.0" fill="#0000b2" class="CLK"/>
+</g>
+<g class="Input" id="D0" pointer-events="visible">
+<path d="M -31,5 L -1,5 L -1,35 L -31,35 Z" stroke="#000000" stroke-width="4.0" fill="none"/>
+<circle cx="-16.0" cy="20.0" r="9.0" stroke="#000000" stroke-width="4.0" fill="none" class="D0"/>
+<text text-anchor="end" x="-45.0" y="29.0" fill="#000000" style="font-size:24px"><tspan style="font-style:italic;">D0</tspan></text>
+<circle cx="0.0" cy="20.0" r="2.0" stroke="#b20000" stroke-width="4.0" fill="#b20000"/>
+</g>
+<g class="Input" id="D1" pointer-events="visible">
+<path d="M -31,45 L -1,45 L -1,75 L -31,75 Z" stroke="#000000" stroke-width="4.0" fill="none"/>
+<circle cx="-16.0" cy="60.0" r="9.0" stroke="#000000" stroke-width="4.0" fill="none" class="D1"/>
+<text text-anchor="end" x="-45.0" y="69.0" fill="#000000" style="font-size:24px"><tspan style="font-style:italic;">D1</tspan></text>
+<circle cx="0.0" cy="60.0" r="2.0" stroke="#b20000" stroke-width="4.0" fill="#b20000"/>
+</g>
+<g class="Input" id="D2" pointer-events="visible">
+<path d="M -31,145 L -1,145 L -1,175 L -31,175 Z" stroke="#000000" stroke-width="4.0" fill="none"/>
+<circle cx="-16.0" cy="160.0" r="9.0" stroke="#000000" stroke-width="4.0" fill="none" class="D2"/>
+<text text-anchor="end" x="-45.0" y="169.0" fill="#000000" style="font-size:24px"><tspan style="font-style:italic;">D2</tspan></text>
+<circle cx="0.0" cy="160.0" r="2.0" stroke="#b20000" stroke-width="4.0" fill="#b20000"/>
+</g>
+<g class="Input" id="D3" pointer-events="visible">
+<path d="M -31,185 L -1,185 L -1,215 L -31,215 Z" stroke="#000000" stroke-width="4.0" fill="none"/>
+<circle cx="-16.0" cy="200.0" r="9.0" stroke="#000000" stroke-width="4.0" fill="none" class="D3"/>
+<text text-anchor="end" x="-45.0" y="209.0" fill="#000000" style="font-size:24px"><tspan style="font-style:italic;">D3</tspan></text>
+<circle cx="0.0" cy="200.0" r="2.0" stroke="#b20000" stroke-width="4.0" fill="#b20000"/>
+</g>
+<g class="Input" id="LOAD" pointer-events="visible">
+<path d="M -31,-135 L -1,-135 L -1,-105 L -31,-105 Z" stroke="#000000" stroke-width="4.0" fill="none"/>
+<circle cx="-16.0" cy="-120.0" r="9.0" stroke="#000000" stroke-width="4.0" fill="none" class="LOAD"/>
+<text text-anchor="end" x="-45.0" y="-111.0" fill="#000000" style="font-size:24px"><tspan style="font-style:italic;">LOAD</tspan></text>
+<circle cx="0.0" cy="-120.0" r="2.0" stroke="#b20000" stroke-width="4.0" fill="#b20000"/>
+</g>
+<g class="Input" id="CLK" pointer-events="visible">
+<path d="M -31,-95 L -1,-95 L -1,-65 L -31,-65 Z" stroke="#000000" stroke-width="4.0" fill="none"/>
+<circle cx="-16.0" cy="-80.0" r="9.0" stroke="#000000" stroke-width="4.0" fill="none" class="CLK"/>
+<text text-anchor="end" x="-45.0" y="-71.0" fill="#000000" style="font-size:24px"><tspan style="font-style:italic;">CLK</tspan></text>
+<circle cx="0.0" cy="-80.0" r="2.0" stroke="#b20000" stroke-width="4.0" fill="#b20000"/>
+</g>
+<g class="Input" id="CLR" pointer-events="visible">
+<path d="M -31,-55 L -1,-55 L -1,-25 L -31,-25 Z" stroke="#000000" stroke-width="4.0" fill="none"/>
+<circle cx="-16.0" cy="-40.0" r="9.0" stroke="#000000" stroke-width="4.0" fill="none" class="CLR"/>
+<text text-anchor="end" x="-45.0" y="-31.0" fill="#000000" style="font-size:24px"><tspan style="font-style:italic;">CLR</tspan></text>
+<circle cx="0.0" cy="-40.0" r="2.0" stroke="#b20000" stroke-width="4.0" fill="#b20000"/>
+</g>
+<g class="Output" id="OUT0">
+<circle cx="316.0" cy="-40.0" r="9.0" stroke="#000000" stroke-width="4.0" fill="none" class="register0_OUT0"/>
+<circle cx="316.0" cy="-40.0" r="15.0" stroke="#000000" stroke-width="4.0" fill="none" class="OUT0"/>
+<text text-anchor="start" x="345.0" y="-31.0" fill="#000000" style="font-size:24px"><tspan style="font-style:italic;">OUT0</tspan></text>
+<circle cx="300.0" cy="-40.0" r="2.0" stroke="#0000b2" stroke-width="4.0" fill="#0000b2"/>
+</g>
+<g class="Output" id="OUT1">
+<circle cx="316.0" cy="0.0" r="9.0" stroke="#000000" stroke-width="4.0" fill="none" class="register0_OUT1"/>
+<circle cx="316.0" cy="0.0" r="15.0" stroke="#000000" stroke-width="4.0" fill="none" class="OUT1"/>
+<text text-anchor="start" x="345.0" y="9.0" fill="#000000" style="font-size:24px"><tspan style="font-style:italic;">OUT1</tspan></text>
+<circle cx="300.0" cy="0.0" r="2.0" stroke="#0000b2" stroke-width="4.0" fill="#0000b2"/>
+</g>
+<g class="Output" id="OUT2">
+<circle cx="316.0" cy="100.0" r="9.0" stroke="#000000" stroke-width="4.0" fill="none" class="register1_OUT0"/>
+<circle cx="316.0" cy="100.0" r="15.0" stroke="#000000" stroke-width="4.0" fill="none" class="OUT2"/>
+<text text-anchor="start" x="345.0" y="109.0" fill="#000000" style="font-size:24px"><tspan style="font-style:italic;">OUT2</tspan></text>
+<circle cx="300.0" cy="100.0" r="2.0" stroke="#0000b2" stroke-width="4.0" fill="#0000b2"/>
+</g>
+<g class="Output" id="OUT3">
+<circle cx="316.0" cy="140.0" r="9.0" stroke="#000000" stroke-width="4.0" fill="none" class="register1_OUT1"/>
+<circle cx="316.0" cy="140.0" r="15.0" stroke="#000000" stroke-width="4.0" fill="none" class="OUT3"/>
+<text text-anchor="start" x="345.0" y="149.0" fill="#000000" style="font-size:24px"><tspan style="font-style:italic;">OUT3</tspan></text>
+<circle cx="300.0" cy="140.0" r="2.0" stroke="#0000b2" stroke-width="4.0" fill="#0000b2"/>
+</g>
+<g class="REGISTER2" pointer-events="visible">
+<path d="M 141,-54 L 259,-54 L 259,54 L 141,54 Z" stroke="#ffffb4" stroke-width="0.0" fill="#ffffb4" fill-opacity="0.7843137254901961"/>
+<path d="M 141,-54 L 259,-54 L 259,54 L 141,54 Z" stroke="#000000" stroke-width="4.0" fill="none"/>
+<text text-anchor="start" x="144.0" y="-33.25" fill="#808080" style="font-size:18px">LOAD</text>
+<text text-anchor="start" x="144.0" y="-13.25" fill="#808080" style="font-size:18px">CLK</text>
+<text text-anchor="start" x="144.0" y="6.75" fill="#808080" style="font-size:18px">CLR</text>
+<text text-anchor="start" x="144.0" y="26.75" fill="#808080" style="font-size:18px">D0</text>
+<text text-anchor="start" x="144.0" y="46.75" fill="#808080" style="font-size:18px">D1</text>
+<text text-anchor="end" x="256.0" y="-33.25" fill="#808080" style="font-size:18px">OUT0</text>
+<text text-anchor="end" x="256.0" y="-13.25" fill="#808080" style="font-size:18px">OUT1</text>
+<text text-anchor="middle" x="200.0" y="71.5" fill="#808080" style="font-size:18px">REGISTER2</text>
+<circle cx="140.0" cy="-40.0" r="2.0" stroke="#0000b2" stroke-width="4.0" fill="#0000b2"/>
+<circle cx="140.0" cy="-20.0" r="2.0" stroke="#0000b2" stroke-width="4.0" fill="#0000b2"/>
+<circle cx="140.0" cy="0.0" r="2.0" stroke="#0000b2" stroke-width="4.0" fill="#0000b2"/>
+<circle cx="140.0" cy="20.0" r="2.0" stroke="#0000b2" stroke-width="4.0" fill="#0000b2"/>
+<circle cx="140.0" cy="40.0" r="2.0" stroke="#0000b2" stroke-width="4.0" fill="#0000b2"/>
+<circle cx="260.0" cy="-40.0" r="2.0" stroke="#b20000" stroke-width="4.0" fill="#b20000"/>
+<circle cx="260.0" cy="-20.0" r="2.0" stroke="#b20000" stroke-width="4.0" fill="#b20000"/>
+</g>
+<g class="REGISTER2" pointer-events="visible">
+<path d="M 141,86 L 259,86 L 259,194 L 141,194 Z" stroke="#ffffb4" stroke-width="0.0" fill="#ffffb4" fill-opacity="0.7843137254901961"/>
+<path d="M 141,86 L 259,86 L 259,194 L 141,194 Z" stroke="#000000" stroke-width="4.0" fill="none"/>
+<text text-anchor="start" x="144.0" y="106.75" fill="#808080" style="font-size:18px">LOAD</text>
+<text text-anchor="start" x="144.0" y="126.75" fill="#808080" style="font-size:18px">CLK</text>
+<text text-anchor="start" x="144.0" y="146.75" fill="#808080" style="font-size:18px">CLR</text>
+<text text-anchor="start" x="144.0" y="166.75" fill="#808080" style="font-size:18px">D0</text>
+<text text-anchor="start" x="144.0" y="186.75" fill="#808080" style="font-size:18px">D1</text>
+<text text-anchor="end" x="256.0" y="106.75" fill="#808080" style="font-size:18px">OUT0</text>
+<text text-anchor="end" x="256.0" y="126.75" fill="#808080" style="font-size:18px">OUT1</text>
+<text text-anchor="middle" x="200.0" y="211.5" fill="#808080" style="font-size:18px">REGISTER2</text>
+<circle cx="140.0" cy="100.0" r="2.0" stroke="#0000b2" stroke-width="4.0" fill="#0000b2"/>
+<circle cx="140.0" cy="120.0" r="2.0" stroke="#0000b2" stroke-width="4.0" fill="#0000b2"/>
+<circle cx="140.0" cy="140.0" r="2.0" stroke="#0000b2" stroke-width="4.0" fill="#0000b2"/>
+<circle cx="140.0" cy="160.0" r="2.0" stroke="#0000b2" stroke-width="4.0" fill="#0000b2"/>
+<circle cx="140.0" cy="180.0" r="2.0" stroke="#0000b2" stroke-width="4.0" fill="#0000b2"/>
+<circle cx="260.0" cy="100.0" r="2.0" stroke="#b20000" stroke-width="4.0" fill="#b20000"/>
+<circle cx="260.0" cy="120.0" r="2.0" stroke="#b20000" stroke-width="4.0" fill="#b20000"/>
+</g>
+</g>
+</svg>

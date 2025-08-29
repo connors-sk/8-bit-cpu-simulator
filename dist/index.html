@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>8-bit CPU emulator</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.cdnfonts.com/css/seven-segment" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.min.js"></script>
+    <script defer src="index.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="column">
+            <div id="clock" class="module">
+                <a href="circuit.html?circuit=CLOCK" target="_blank"><span class="title">Clock</span></a>
+                <div class="flex">
+                    <div>
+                        <div class="leds">
+                            <span class="blue led" id="CLK"></span>
+                            <span class="divider"></span>
+                            <span class="green led" id="RUNMODE"></span>
+                            <span class="divider"></span>
+                            <span class="red led" id="PROGRAMMODE"></span>
+                            <span class="divider"></span>
+                        </div>
+                        <div class="stickers">
+                            <span class="sticker3">CLK</span>
+                            <span class="divider"></span>
+                            <span class="sticker3">RUN</span>
+                            <span class="divider"></span>
+                            <span class="sticker3">PROG</span>
+                            <span class="divider"></span>
+                        </div>
+                    </div>
+                    <div>
+                        <button id="start-btn">Run</button>
+                        <button id="clk-btn">Pulse Clk</button>
+                        <button id="rst-btn">Clear</button>
+                        <button id="mode-btn">Mode</button>
+                    </div>
+                </div>
+            </div>
+            <div id="memory-address" class="module">
+                <a href="circuit.html?circuit=MAR" target="_blank"><span class="title">Memory Address</span></a>
+                <div class="flex">
+                    <div>
+                        <div class="leds">
+                            <span class="yellow led" id="ADDR3"></span>
+                            <span class="yellow led" id="ADDR2"></span>
+                            <span class="yellow led" id="ADDR1"></span>
+                            <span class="yellow led" id="ADDR0"></span>
+                            <span class="divider"></span>
+                            <span class="yellow input" id="DIPA3"></span>
+                            <span class="yellow input" id="DIPA2"></span>
+                            <span class="yellow input" id="DIPA1"></span>
+                            <span class="yellow input" id="DIPA0"></span>
+                            <span class="divider"></span>
+                        </div>
+                        <div class="stickers">
+                            <span class="sticker3">8</span>
+                            <span class="sticker3">4</span>
+                            <span class="sticker3">2</span>
+                            <span class="sticker3">1</span>
+                            <span class="divider"></span>
+                            <span class="sticker3">8</span>
+                            <span class="sticker3">4</span>
+                            <span class="sticker3">2</span>
+                            <span class="sticker3">1</span>
+                            <span class="divider"></span>
+                        </div>
+                    </div>
+                    <div>
+                        <button id="write-btn">Write</button>
+                    </div>
+                </div>
+            </div>
+            <div id="memory-content" class="module">
+                <a href="circuit.html?circuit=MEMORYCONTENTS" target="_blank"><span class="title">Memory Contents</span></a>
+                <div class="leds">
+                    <span class="red led" id="RAM7"></span>
+                    <span class="red led" id="RAM6"></span>
+                    <span class="red led" id="RAM5"></span>
+                    <span class="red led" id="RAM4"></span>
+                    <span class="red led" id="RAM3"></span>
+                    <span class="red led" id="RAM2"></span>
+                    <span class="red led" id="RAM1"></span>
+                    <span class="red led" id="RAM0"></span>
+                    <span class="divider"></span>
+                    <span class="red input" id="DIPD7"></span>
+                    <span class="red input" id="DIPD6"></span>
+                    <span class="red input" id="DIPD5"></span>
+                    <span class="red input" id="DIPD4"></span>
+                    <span class="red input" id="DIPD3"></span>
+                    <span class="red input" id="DIPD2"></span>
+                    <span class="red input" id="DIPD1"></span>
+                    <span class="red input" id="DIPD0"></span>
+                </div>
+                <div class="stickers">
+                    <span class="sticker3">128</span>
+                    <span class="sticker3">64</span>
+                    <span class="sticker3">32</span>
+                    <span class="sticker3">16</span>
+                    <span class="sticker3">8</span>
+                    <span class="sticker3">4</span>
+                    <span class="sticker3">2</span>
+                    <span class="sticker3">1</span>
+                    <span class="divider"></span>
+                    <span class="sticker3">128</span>
+                    <span class="sticker3">64</span>
+                    <span class="sticker3">32</span>
+                    <span class="sticker3">16</span>
+                    <span class="sticker3">8</span>
+                    <span class="sticker3">4</span>
+                    <span class="sticker3">2</span>
+                    <span class="sticker3">1</span>
+                </div>
+            </div>
+            <div class="grid">
+                <div id="op-code-counter" class="module mr-10">
+                    <a href="circuit.html?circuit=OPCODECOUNTER" target="_blank"><span class="title">OP Codes Counter</span></a>
+                    <div class="leds">
+                        <span class="red led" id="OPCODE0"></span>
+                        <span class="red led" id="OPCODE1"></span>
+                        <span class="red led" id="OPCODE2"></span>
+                        <span class="green led" id="OPCODET0"></span>
+                        <span class="green led" id="OPCODET1"></span>
+                        <span class="green led" id="OPCODET2"></span>
+                        <span class="green led" id="OPCODET3"></span>
+                        <span class="green led" id="OPCODET4"></span>
+                    </div>
+                    <div class="stickers">
+                        <span class="sticker3">1</span>
+                        <span class="sticker3">2</span>
+                        <span class="sticker3">4</span>
+                        <span class="sticker2">T0</span>
+                        <span class="sticker2">T1</span>
+                        <span class="sticker2">T2</span>
+                        <span class="sticker2">T3</span>
+                        <span class="sticker2">T4</span>
+                    </div>
+                </div>
+                <div id="instruction-register" class="module">
+                    <a href="circuit.html?circuit=INSTRUCTIONREGISTER" target="_blank"><span class="title">Instr. Register</span></a>
+                    <div class="leds">
+                        <span class="blue led" id="REGI7"></span>
+                        <span class="blue led" id="REGI6"></span>
+                        <span class="blue led" id="REGI5"></span>
+                        <span class="blue led" id="REGI4"></span>
+                        <span class="yellow led" id="REGI3"></span>
+                        <span class="yellow led" id="REGI2"></span>
+                        <span class="yellow led" id="REGI1"></span>
+                        <span class="yellow led" id="REGI0"></span>
+                    </div>
+                    <div class="stickers">
+                        <span class="sticker3">8</span>
+                        <span class="sticker3">4</span>
+                        <span class="sticker3">2</span>
+                        <span class="sticker3">1</span>
+                        <span class="sticker3">8</span>
+                        <span class="sticker3">4</span>
+                        <span class="sticker3">2</span>
+                        <span class="sticker3">1</span>
+                    </div>
+                </div>
+            </div>
+            <div class="grid">
+                <div id="bootstrapper" class="module mr-10">
+                    <span class="title">Bootstrapper</span>
+                    <div class="flex">
+                        <div class="line-counter">
+                            <span>00:</span>
+                            <span>01:</span>
+                            <span>02:</span>
+                            <span>03:</span>
+                            <span>04:</span>
+                            <span>05:</span>
+                            <span>06:</span>
+                            <span>07:</span>
+                            <span>08:</span>
+                            <span>09:</span>
+                            <span>10:</span>
+                            <span>11:</span>
+                            <span>12:</span>
+                            <span>13:</span>
+                            <span>14:</span>
+                            <span>15:</span>
+                        </div>
+                        <div class="code">
+                            <textarea rows="16" id="code" class="bootstrapper-textarea" rows="16"></textarea>
+                        </div>
+                    </div>
+                    <label for="program">Select program:</label>
+                    <select id="program">
+                        <option>Fibonacci</option>
+                        <option>Multiplication</option>
+                        <option>Print numbers 0 to 10</option>
+                        <option>Print numbers 0 to 255</option>
+                        <option>Count to 255 and back</option>
+                        <option>Blank</option>
+                    </select>
+                    <button id="assemble-btn">Assemble</button>
+                </div>
+                <div class="module ram">
+                    <span class="title">RAM</span>
+                    <div class="flex">
+                        <div class="ram-line">
+                            <span>00:</span>
+                            <span>01:</span>
+                            <span>02:</span>
+                            <span>03:</span>
+                            <span>04:</span>
+                            <span>05:</span>
+                            <span>06:</span>
+                            <span>07:</span>
+                            <span>08:</span>
+                            <span>09:</span>
+                            <span>10:</span>
+                            <span>11:</span>
+                            <span>12:</span>
+                            <span>13:</span>
+                            <span>14:</span>
+                            <span>15:</span>
+                        </div>
+                        <div class="ram-values">
+                            <span class="ram-value">0000 0000</span>
+                            <span class="ram-value">0000 0000</span>
+                            <span class="ram-value">0000 0000</span>
+                            <span class="ram-value">0000 0000</span>
+                            <span class="ram-value">0000 0000</span>
+                            <span class="ram-value">0000 0000</span>
+                            <span class="ram-value">0000 0000</span>
+                            <span class="ram-value">0000 0000</span>
+                            <span class="ram-value">0000 0000</span>
+                            <span class="ram-value">0000 0000</span>
+                            <span class="ram-value">0000 0000</span>
+                            <span class="ram-value">0000 0000</span>
+                            <span class="ram-value">0000 0000</span>
+                            <span class="ram-value">0000 0000</span>
+                            <span class="ram-value">0000 0000</span>
+                            <span class="ram-value">0000 0000</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="middle-column">
+            <div id="bus" class="module">
+                <span class="title">Bus</span>
+                <div class="leds">
+                    <span class="red led" id="BUS7"></span>
+                    <span class="red led" id="BUS6"></span>
+                    <span class="red led" id="BUS5"></span>
+                    <span class="red led" id="BUS4"></span>
+                    <span class="red led" id="BUS3"></span>
+                    <span class="red led" id="BUS2"></span>
+                    <span class="red led" id="BUS1"></span>
+                    <span class="red led" id="BUS0"></span>
+                </div>
+                <div class="stickers">
+                    <span class="sticker3">128</span>
+                    <span class="sticker3">64</span>
+                    <span class="sticker3">32</span>
+                    <span class="sticker3">16</span>
+                    <span class="sticker3">8</span>
+                    <span class="sticker3">4</span>
+                    <span class="sticker3">2</span>
+                    <span class="sticker3">1</span>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div id="counter" class="module">
+                <a href="circuit.html?circuit=PC" target="_blank"><span class="title">Counter</span></a>
+                <div class="leds">
+                    <span class="green led" id="PC3"></span>
+                    <span class="green led" id="PC2"></span>
+                    <span class="green led" id="PC1"></span>
+                    <span class="green led" id="PC0"></span>
+                </div>
+                <div class="stickers">
+                    <span class="sticker3">8</span>
+                    <span class="sticker3">4</span>
+                    <span class="sticker3">2</span>
+                    <span class="sticker3">1</span>
+                </div>
+            </div>
+            <div class="grid">
+                <div id="a-register" class="module mr-10">
+                    <a href="circuit.html?circuit=REGISTERA" target="_blank"><span class="title">A Register</span></a>
+                    <div class="leds">
+                        <span class="red led" id="REGA7"></span>
+                        <span class="red led" id="REGA6"></span>
+                        <span class="red led" id="REGA5"></span>
+                        <span class="red led" id="REGA4"></span>
+                        <span class="red led" id="REGA3"></span>
+                        <span class="red led" id="REGA2"></span>
+                        <span class="red led" id="REGA1"></span>
+                        <span class="red led" id="REGA0"></span>
+                    </div>
+                    <div class="stickers">
+                        <span class="sticker3">128</span>
+                        <span class="sticker3">64</span>
+                        <span class="sticker3">32</span>
+                        <span class="sticker3">16</span>
+                        <span class="sticker3">8</span>
+                        <span class="sticker3">4</span>
+                        <span class="sticker3">2</span>
+                        <span class="sticker3">1</span>
+                    </div>
+                </div>
+                <div id="flags-register" class="module">
+                    <a href="circuit.html?circuit=FLAGSREGISTER" target="_blank"><span class="title">Flags Register</span></a>
+                    <div class="leds">
+                        <span class="green led" id="CF"></span>
+                        <span class="green led" id="ZF"></span>
+                    </div>
+                    <div class="stickers">
+                        <span class="sticker">CF</span>
+                        <span class="sticker">ZF</span>
+                    </div>
+                </div>
+            </div>
+            <div id="sum-register" class="module">
+                <a href="circuit.html?circuit=SUMREGISTER" target="_blank"><span class="title">Sum Register</span></a>
+                <div class="leds">
+                    <span class="red led" id="REGSUM7"></span>
+                    <span class="red led" id="REGSUM6"></span>
+                    <span class="red led" id="REGSUM5"></span>
+                    <span class="red led" id="REGSUM4"></span>
+                    <span class="red led" id="REGSUM3"></span>
+                    <span class="red led" id="REGSUM2"></span>
+                    <span class="red led" id="REGSUM1"></span>
+                    <span class="red led" id="REGSUM0"></span>
+                    <span class="divider"></span>
+                    <span class="blue led" id="ISCARRY"></span>
+                    <span class="blue led" id="ISZERO"></span>
+                </div>
+                <div class="stickers">
+                    <span class="sticker3">128</span>
+                    <span class="sticker3">64</span>
+                    <span class="sticker3">32</span>
+                    <span class="sticker3">16</span>
+                    <span class="sticker3">8</span>
+                    <span class="sticker3">4</span>
+                    <span class="sticker3">2</span>
+                    <span class="sticker3">1</span>
+                    <span class="divider"></span>
+                    <span class="sticker3">C</span>
+                    <span class="sticker3">Z</span>
+                </div>
+            </div>
+            <div id="b-register" class="module">
+                <a href="circuit.html?circuit=REGISTERB" target="_blank"><span class="title">B Register</span></a>
+                <div class="leds">
+                    <span class="red led" id="REGB7"></span>
+                    <span class="red led" id="REGB6"></span>
+                    <span class="red led" id="REGB5"></span>
+                    <span class="red led" id="REGB4"></span>
+                    <span class="red led" id="REGB3"></span>
+                    <span class="red led" id="REGB2"></span>
+                    <span class="red led" id="REGB1"></span>
+                    <span class="red led" id="REGB0"></span>
+                </div>
+                <div class="stickers">
+                    <span class="sticker3">128</span>
+                    <span class="sticker3">64</span>
+                    <span class="sticker3">32</span>
+                    <span class="sticker3">16</span>
+                    <span class="sticker3">8</span>
+                    <span class="sticker3">4</span>
+                    <span class="sticker3">2</span>
+                    <span class="sticker3">1</span>
+                </div>
+            </div>
+            <div class="output module">
+                <a href="circuit.html?circuit=OUTPUTREGISTER" target="_blank"><span class="title">Output</span></a>
+                <div class="seven-segment-display">
+                    <span class="seven-segment-display-digit"></span>
+                    <span class="seven-segment-display-digit">0</span>
+                    <span class="seven-segment-display-digit">0</span>
+                    <span class="seven-segment-display-digit">0</span>
+                </div>
+            </div>
+            <div id="control-word" class="module">
+                <a href="circuit.html?circuit=INSTRUCTIONREGISTER" target="_blank"><span class="title">Control Word</span></a>
+                <div class="leds">
+                    <span class="blue led" id="HLT"></span>
+                    <span class="blue led" id="MI"></span>
+                    <span class="blue led" id="RI"></span>
+                    <span class="blue led" id="RO"></span>
+                    <span class="blue led" id="IO"></span>
+                    <span class="blue led" id="II"></span>
+                    <span class="blue led" id="AI"></span>
+                    <span class="blue led" id="AO"></span>
+                    <span class="blue led" id="EO"></span>
+                    <span class="blue led" id="SU"></span>
+                    <span class="blue led" id="BI"></span>
+                    <span class="blue led" id="OI"></span>
+                    <span class="blue led" id="CE"></span>
+                    <span class="blue led" id="CO"></span>
+                    <span class="blue led" id="J"></span>
+                    <span class="blue led" id="FI"></span>
+                </div>
+                <div class="stickers">
+                    <span class="sticker">HLT</span>
+                    <span class="sticker">MI</span>
+                    <span class="sticker">RI</span>
+                    <span class="sticker">RO</span>
+                    <span class="sticker">IO</span>
+                    <span class="sticker">II</span>
+                    <span class="sticker">AI</span>
+                    <span class="sticker">AO</span>
+                    <span class="sticker">EO</span>
+                    <span class="sticker">SU</span>
+                    <span class="sticker">BI</span>
+                    <span class="sticker">OI</span>
+                    <span class="sticker">CE</span>
+                    <span class="sticker">CO</span>
+                    <span class="sticker">J</span>
+                    <span class="sticker">FI</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

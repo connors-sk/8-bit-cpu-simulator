@@ -1,0 +1,76 @@
+<svg xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" width="1000px" viewBox="349 108 574 170">
+<g stroke-linecap="square">
+<path d="M 420,160 L 480,160" stroke="#0000b2" stroke-width="4.0" fill="none" class="A"/>
+<path d="M 540,160 L 580,160 L 580,220 L 620,220" stroke="#0000b2" stroke-width="4.0" fill="none" class="halfAdder1_S"/>
+<path d="M 420,240 L 620,240" stroke="#0000b2" stroke-width="4.0" fill="none" class="CI"/>
+<path d="M 680,240 L 720,240 L 720,160 L 740,160 L 744,160" stroke="#0000b2" stroke-width="4.0" fill="none" class="halfAdder2_CO"/>
+<path d="M 540,180 L 640,180 L 640,120 L 740,120 L 744,120" stroke="#0000b2" stroke-width="4.0" fill="none" class="halfAdder1_CO"/>
+<path d="M 420,200 L 440,200 L 440,180 L 480,180" stroke="#0000b2" stroke-width="4.0" fill="none" class="B"/>
+<path d="M 680,220 L 840,220" stroke="#0000b2" stroke-width="4.0" fill="none" class="halfAdder2_S"/>
+<path d="M 820,140 L 840,140" stroke="#0000b2" stroke-width="4.0" fill="none" class="or_OUT"/>
+<g>
+</g>
+<g class="Input" id="A" pointer-events="visible">
+<path d="M 389,145 L 419,145 L 419,175 L 389,175 Z" stroke="#000000" stroke-width="4.0" fill="none"/>
+<circle cx="404.0" cy="160.0" r="9.0" stroke="#000000" stroke-width="4.0" fill="none" class="A"/>
+<text text-anchor="end" x="375.0" y="169.0" fill="#000000" style="font-size:24px"><tspan style="font-style:italic;">A</tspan></text>
+<circle cx="420.0" cy="160.0" r="2.0" stroke="#b20000" stroke-width="4.0" fill="#b20000"/>
+</g>
+<g class="Input" id="B" pointer-events="visible">
+<path d="M 389,185 L 419,185 L 419,215 L 389,215 Z" stroke="#000000" stroke-width="4.0" fill="none"/>
+<circle cx="404.0" cy="200.0" r="9.0" stroke="#000000" stroke-width="4.0" fill="none" class="B"/>
+<text text-anchor="end" x="375.0" y="209.0" fill="#000000" style="font-size:24px"><tspan style="font-style:italic;">B</tspan></text>
+<circle cx="420.0" cy="200.0" r="2.0" stroke="#b20000" stroke-width="4.0" fill="#b20000"/>
+</g>
+<g class="Input" id="CI" pointer-events="visible">
+<path d="M 389,225 L 419,225 L 419,255 L 389,255 Z" stroke="#000000" stroke-width="4.0" fill="none"/>
+<circle cx="404.0" cy="240.0" r="9.0" stroke="#000000" stroke-width="4.0" fill="none" class="CI"/>
+<text text-anchor="end" x="375.0" y="249.0" fill="#000000" style="font-size:24px"><tspan style="font-style:italic;">CI</tspan></text>
+<circle cx="420.0" cy="240.0" r="2.0" stroke="#b20000" stroke-width="4.0" fill="#b20000"/>
+</g>
+<g>
+<circle cx="856.0" cy="220.0" r="9.0" stroke="#000000" stroke-width="4.0" fill="none" class="halfAdder2_S"/>
+<circle cx="856.0" cy="220.0" r="15.0" stroke="#000000" stroke-width="4.0" fill="none"/>
+<text text-anchor="start" x="885.0" y="229.0" fill="#000000" style="font-size:24px"><tspan style="font-style:italic;">S</tspan></text>
+<circle cx="840.0" cy="220.0" r="2.0" stroke="#0000b2" stroke-width="4.0" fill="#0000b2"/>
+</g>
+<g class="OR" pointer-events="visible">
+<path d="M 770,170 L 740,170 C 750,154 750,126 740,110 L 760,110 C 790,110 810,120 820,140 C 810,160 790,170 770,170 Z" stroke="#000000" stroke-width="4.0" fill="none"/>
+<circle cx="740.0" cy="120.0" r="2.0" stroke="#0000b2" stroke-width="4.0" fill="#0000b2"/>
+<circle cx="740.0" cy="160.0" r="2.0" stroke="#0000b2" stroke-width="4.0" fill="#0000b2"/>
+<circle cx="820.0" cy="140.0" r="2.0" stroke="#b20000" stroke-width="4.0" fill="#b20000"/>
+</g>
+<g>
+<circle cx="856.0" cy="140.0" r="9.0" stroke="#000000" stroke-width="4.0" fill="none" class="or_OUT"/>
+<circle cx="856.0" cy="140.0" r="15.0" stroke="#000000" stroke-width="4.0" fill="none"/>
+<text text-anchor="start" x="885.0" y="149.0" fill="#000000" style="font-size:24px"><tspan style="font-style:italic;">CO</tspan></text>
+<circle cx="840.0" cy="140.0" r="2.0" stroke="#0000b2" stroke-width="4.0" fill="#0000b2"/>
+</g>
+<g class="HALFADDER" pointer-events="visible">
+<path d="M 481,146 L 539,146 L 539,194 L 481,194 Z" stroke="#ffffb4" stroke-width="0.0" fill="#ffffb4" fill-opacity="0.7843137254901961"/>
+<path d="M 481,146 L 539,146 L 539,194 L 481,194 Z" stroke="#000000" stroke-width="4.0" fill="none"/>
+<text text-anchor="start" x="484.0" y="166.75" fill="#808080" style="font-size:18px">A</text>
+<text text-anchor="start" x="484.0" y="186.75" fill="#808080" style="font-size:18px">B</text>
+<text text-anchor="end" x="536.0" y="166.75" fill="#808080" style="font-size:18px">S</text>
+<text text-anchor="end" x="536.0" y="186.75" fill="#808080" style="font-size:18px">C</text>
+<text text-anchor="middle" x="510.0" y="211.5" fill="#808080" style="font-size:18px">HALFADDER</text>
+<circle cx="480.0" cy="160.0" r="2.0" stroke="#0000b2" stroke-width="4.0" fill="#0000b2"/>
+<circle cx="480.0" cy="180.0" r="2.0" stroke="#0000b2" stroke-width="4.0" fill="#0000b2"/>
+<circle cx="540.0" cy="160.0" r="2.0" stroke="#b20000" stroke-width="4.0" fill="#b20000"/>
+<circle cx="540.0" cy="180.0" r="2.0" stroke="#b20000" stroke-width="4.0" fill="#b20000"/>
+</g>
+<g class="HALFADDER" pointer-events="visible">
+<path d="M 621,206 L 679,206 L 679,254 L 621,254 Z" stroke="#ffffb4" stroke-width="0.0" fill="#ffffb4" fill-opacity="0.7843137254901961"/>
+<path d="M 621,206 L 679,206 L 679,254 L 621,254 Z" stroke="#000000" stroke-width="4.0" fill="none"/>
+<text text-anchor="start" x="624.0" y="226.75" fill="#808080" style="font-size:18px">A</text>
+<text text-anchor="start" x="624.0" y="246.75" fill="#808080" style="font-size:18px">B</text>
+<text text-anchor="end" x="676.0" y="226.75" fill="#808080" style="font-size:18px">S</text>
+<text text-anchor="end" x="676.0" y="246.75" fill="#808080" style="font-size:18px">C</text>
+<text text-anchor="middle" x="650.0" y="271.5" fill="#808080" style="font-size:18px">HALFADDER</text>
+<circle cx="620.0" cy="220.0" r="2.0" stroke="#0000b2" stroke-width="4.0" fill="#0000b2"/>
+<circle cx="620.0" cy="240.0" r="2.0" stroke="#0000b2" stroke-width="4.0" fill="#0000b2"/>
+<circle cx="680.0" cy="220.0" r="2.0" stroke="#b20000" stroke-width="4.0" fill="#b20000"/>
+<circle cx="680.0" cy="240.0" r="2.0" stroke="#b20000" stroke-width="4.0" fill="#b20000"/>
+</g>
+</g>
+</svg>

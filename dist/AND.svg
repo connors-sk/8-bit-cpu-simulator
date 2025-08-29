@@ -1,0 +1,44 @@
+<svg xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" width="800px" viewBox="276 163 442 74">
+<g stroke-linecap="square">
+<path d="M 340,180 L 360,180" stroke="#0000b2" stroke-width="4.0" fill="none" class="A"/>
+<path d="M 460,200 L 480,200 L 480,180 L 500,180" stroke="#0000b2" stroke-width="4.0" fill="none" class="nand1"/>
+<path d="M 600,200 L 620,200" stroke="#0000b2" stroke-width="4.0" fill="none" class="nand2"/>
+<path d="M 340,220 L 360,220" stroke="#0000b2" stroke-width="4.0" fill="none" class="B"/>
+<path d="M 480,200 L 480,220 L 500,220" stroke="#0000b2" stroke-width="4.0" fill="none" class="nand1"/>
+<g>
+<circle cx="480.0" cy="200.0" r="4.0" stroke="#0000b2" stroke-width="4.0" fill="#0000b2" class="nand1"/>
+</g>
+<g class="Input" id="A" pointer-events="visible">
+<path d="M 309,165 L 339,165 L 339,195 L 309,195 Z" stroke="#000000" stroke-width="4.0" fill="none" class=""/>
+<circle cx="324.0" cy="180.0" r="9.0" stroke="#000000" stroke-width="4.0" fill="none" class="A"/>
+<text text-anchor="end" x="295.0" y="189.0" fill="#000000" style="font-size:24px"><tspan style="font-style:italic;">A</tspan></text>
+<circle cx="340.0" cy="180.0" r="2.0" stroke="#b20000" stroke-width="4.0" fill="#b20000"/>
+</g>
+<g class="Output" id="OUT">
+<circle cx="636.0" cy="200.0" r="9.0" stroke="#000000" stroke-width="4.0" fill="none" class="nand2"/>
+<circle cx="636.0" cy="200.0" r="15.0" stroke="#000000" stroke-width="4.0" fill="none" class="OUT"/>
+<text text-anchor="start" x="665.0" y="209.0" fill="#000000" style="font-size:24px"><tspan style="font-style:italic;">OUT</tspan></text>
+<circle cx="620.0" cy="200.0" r="2.0" stroke="#0000b2" stroke-width="4.0" fill="#0000b2"/>
+</g>
+<g class="Input" id="B" pointer-events="visible">
+<path d="M 309,205 L 339,205 L 339,235 L 309,235 Z" stroke="#000000" stroke-width="4.0" fill="none"/>
+<circle cx="324.0" cy="220.0" r="9.0" stroke="#000000" stroke-width="4.0" fill="none" class="B"/>
+<text text-anchor="end" x="295.0" y="229.0" fill="#000000" style="font-size:24px"><tspan style="font-style:italic;">B</tspan></text>
+<circle cx="340.0" cy="220.0" r="2.0" stroke="#b20000" stroke-width="4.0" fill="#b20000"/>
+</g>
+<g>
+<path d="M 410,230 L 361,230 L 361,170 L 410,170 C 420,170 440,180 439,200 C 439,220 420,230 410,230 Z" stroke="#000000" stroke-width="4.0" fill="none"/>
+<circle cx="450.0" cy="200.0" r="9.0" stroke="#000000" stroke-width="4.0" fill="none"/>
+<circle cx="360.0" cy="180.0" r="2.0" stroke="#0000b2" stroke-width="4.0" fill="#0000b2"/>
+<circle cx="360.0" cy="220.0" r="2.0" stroke="#0000b2" stroke-width="4.0" fill="#0000b2"/>
+<circle cx="460.0" cy="200.0" r="2.0" stroke="#b20000" stroke-width="4.0" fill="#b20000"/>
+</g>
+<g>
+<path d="M 550,230 L 501,230 L 501,170 L 550,170 C 560,170 580,180 579,200 C 579,220 560,230 550,230 Z" stroke="#000000" stroke-width="4.0" fill="none"/>
+<circle cx="590.0" cy="200.0" r="9.0" stroke="#000000" stroke-width="4.0" fill="none"/>
+<circle cx="500.0" cy="180.0" r="2.0" stroke="#0000b2" stroke-width="4.0" fill="#0000b2"/>
+<circle cx="500.0" cy="220.0" r="2.0" stroke="#0000b2" stroke-width="4.0" fill="#0000b2"/>
+<circle cx="600.0" cy="200.0" r="2.0" stroke="#b20000" stroke-width="4.0" fill="#b20000"/>
+</g>
+</g>
+</svg>

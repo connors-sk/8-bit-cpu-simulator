@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Digital by H.Neemann -->
+<!-- created: Sun Sep 15 17:27:30 CEST 2024 -->
+
+<svg xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" width="800px" viewBox="256 58 742 579">
+<g stroke-linecap="square">
+<path d="M 360,100 L 400,100 L 500,100" stroke="#0000b2" stroke-width="4.0" fill="none" class="~SET"/>
+<path d="M 380,280 L 380,360 L 660,360 L 660,420 L 720,420" stroke="#0000b2" stroke-width="4.0" fill="none" class="~CLR"/>
+<path d="M 460,460 L 460,520 L 620,520 L 620,600 L 600,600" stroke="#0000b2" stroke-width="4.0" fill="none" class="nand4_OUT"/>
+<path d="M 420,440 L 420,300 L 500,300" stroke="#0000b2" stroke-width="4.0" fill="none" class="CLK"/>
+<path d="M 360,620 L 500,620" stroke="#0000b2" stroke-width="4.0" fill="none" class="D"/>
+<path d="M 820,280 L 840,280 L 920,280" stroke="#0000b2" stroke-width="4.0" fill="none" class="nand5_OUT"/>
+<path d="M 600,280 L 620,280 L 720,280" stroke="#0000b2" stroke-width="4.0" fill="none" class="nand2_OUT"/>
+<path d="M 360,280 L 380,280 L 500,280" stroke="#0000b2" stroke-width="4.0" fill="none" class="~CLR"/>
+<path d="M 360,440 L 420,440 L 500,440" stroke="#0000b2" stroke-width="4.0" fill="none" class="CLK"/>
+<path d="M 600,440 L 620,440 L 720,440" stroke="#0000b2" stroke-width="4.0" fill="none" class="nand3_OUT"/>
+<path d="M 380,360 L 380,600 L 500,600" stroke="#0000b2" stroke-width="4.0" fill="none" class="~CLR"/>
+<path d="M 600,120 L 620,120 L 620,160 L 460,160 L 460,260 L 500,260" stroke="#0000b2" stroke-width="4.0" fill="none" class="nand1_OUT"/>
+<path d="M 400,100 L 400,60 L 680,60 L 680,260 L 720,260" stroke="#0000b2" stroke-width="4.0" fill="none" class="~SET"/>
+<path d="M 500,460 L 460,460 L 400,460 L 400,120 L 500,120" stroke="#0000b2" stroke-width="4.0" fill="none" class="nand4_OUT"/>
+<path d="M 500,140 L 480,140 L 480,220 L 620,220 L 620,280 L 620,380 L 480,380 L 480,420 L 500,420" stroke="#0000b2" stroke-width="4.0" fill="none" class="nand2_OUT"/>
+<path d="M 500,580 L 480,580 L 480,500 L 620,500 L 620,440" stroke="#0000b2" stroke-width="4.0" fill="none" class="nand3_OUT"/>
+<path d="M 840,280 L 840,360 L 700,360 L 700,400 L 720,400" stroke="#0000b2" stroke-width="4.0" fill="none" class="nand5_OUT"/>
+<path d="M 720,300 L 700,300 L 700,340 L 820,340 L 820,420 L 920,420" stroke="#0000b2" stroke-width="4.0" fill="none" class="nand6_OUT"/>
+<g>
+<circle cx="400.0" cy="100.0" r="4.0" stroke="#0000b2" stroke-width="4.0" fill="#0000b2" class="~SET"/>
+<circle cx="380.0" cy="360.0" r="4.0" stroke="#0000b2" stroke-width="4.0" fill="#0000b2" class="~CLR"/>
+<circle cx="460.0" cy="460.0" r="4.0" stroke="#0000b2" stroke-width="4.0" fill="#0000b2" class="nand4_OUT"/>
+<circle cx="840.0" cy="280.0" r="4.0" stroke="#0000b2" stroke-width="4.0" fill="#0000b2" class="nand5_OUT"/>
+<circle cx="620.0" cy="280.0" r="4.0" stroke="#0000b2" stroke-width="4.0" fill="#0000b2" class="nand2_OUT"/>
+<circle cx="380.0" cy="280.0" r="4.0" stroke="#0000b2" stroke-width="4.0" fill="#0000b2" class="~CLR"/>
+<circle cx="420.0" cy="440.0" r="4.0" stroke="#0000b2" stroke-width="4.0" fill="#0000b2" class="CLK"/>
+<circle cx="620.0" cy="440.0" r="4.0" stroke="#0000b2" stroke-width="4.0" fill="#0000b2" class="nand3_OUT"/>
+</g>
+<g class="NAND3" pointer-events="visible">
+<path d="M 770,310 L 721,310 L 721,250 L 770,250 C 780,250 800,260 799,280 C 799,300 780,310 770,310 Z" stroke="#000000" stroke-width="4.0" fill="none"/>
+<circle cx="810.0" cy="280.0" r="9.0" stroke="#000000" stroke-width="4.0" fill="none"/>
+<circle cx="720.0" cy="260.0" r="2.0" stroke="#0000b2" stroke-width="4.0" fill="#0000b2"/>
+<circle cx="720.0" cy="280.0" r="2.0" stroke="#0000b2" stroke-width="4.0" fill="#0000b2"/>
+<circle cx="720.0" cy="300.0" r="2.0" stroke="#0000b2" stroke-width="4.0" fill="#0000b2"/>
+<circle cx="820.0" cy="280.0" r="2.0" stroke="#b20000" stroke-width="4.0" fill="#b20000"/>
+</g>
+<g class="NAND3" pointer-events="visible">
+<path d="M 770,450 L 721,450 L 721,390 L 770,390 C 780,390 800,400 799,420 C 799,440 780,450 770,450 Z" stroke="#000000" stroke-width="4.0" fill="none"/>
+<circle cx="810.0" cy="420.0" r="9.0" stroke="#000000" stroke-width="4.0" fill="none"/>
+<circle cx="720.0" cy="400.0" r="2.0" stroke="#0000b2" stroke-width="4.0" fill="#0000b2"/>
+<circle cx="720.0" cy="420.0" r="2.0" stroke="#0000b2" stroke-width="4.0" fill="#0000b2"/>
+<circle cx="720.0" cy="440.0" r="2.0" stroke="#0000b2" stroke-width="4.0" fill="#0000b2"/>
+<circle cx="820.0" cy="420.0" r="2.0" stroke="#b20000" stroke-width="4.0" fill="#b20000"/>
+</g>
+<g class="NAND3" pointer-events="visible">
+<path d="M 550,310 L 501,310 L 501,250 L 550,250 C 560,250 580,260 579,280 C 579,300 560,310 550,310 Z" stroke="#000000" stroke-width="4.0" fill="none"/>
+<circle cx="590.0" cy="280.0" r="9.0" stroke="#000000" stroke-width="4.0" fill="none"/>
+<circle cx="500.0" cy="260.0" r="2.0" stroke="#0000b2" stroke-width="4.0" fill="#0000b2"/>
+<circle cx="500.0" cy="280.0" r="2.0" stroke="#0000b2" stroke-width="4.0" fill="#0000b2"/>
+<circle cx="500.0" cy="300.0" r="2.0" stroke="#0000b2" stroke-width="4.0" fill="#0000b2"/>
+<circle cx="600.0" cy="280.0" r="2.0" stroke="#b20000" stroke-width="4.0" fill="#b20000"/>
+</g>
+<g class="NAND3" pointer-events="visible">
+<path d="M 550,470 L 501,470 L 501,410 L 550,410 C 560,410 580,420 579,440 C 579,460 560,470 550,470 Z" stroke="#000000" stroke-width="4.0" fill="none"/>
+<circle cx="590.0" cy="440.0" r="9.0" stroke="#000000" stroke-width="4.0" fill="none"/>
+<circle cx="500.0" cy="420.0" r="2.0" stroke="#0000b2" stroke-width="4.0" fill="#0000b2"/>
+<circle cx="500.0" cy="440.0" r="2.0" stroke="#0000b2" stroke-width="4.0" fill="#0000b2"/>
+<circle cx="500.0" cy="460.0" r="2.0" stroke="#0000b2" stroke-width="4.0" fill="#0000b2"/>
+<circle cx="600.0" cy="440.0" r="2.0" stroke="#b20000" stroke-width="4.0" fill="#b20000"/>
+</g>
+<g class="NAND3" pointer-events="visible">
+<path d="M 550,150 L 501,150 L 501,90 L 550,90 C 560,90 580,100 579,120 C 579,140 560,150 550,150 Z" stroke="#000000" stroke-width="4.0" fill="none"/>
+<circle cx="590.0" cy="120.0" r="9.0" stroke="#000000" stroke-width="4.0" fill="none"/>
+<circle cx="500.0" cy="100.0" r="2.0" stroke="#0000b2" stroke-width="4.0" fill="#0000b2"/>
+<circle cx="500.0" cy="120.0" r="2.0" stroke="#0000b2" stroke-width="4.0" fill="#0000b2"/>
+<circle cx="500.0" cy="140.0" r="2.0" stroke="#0000b2" stroke-width="4.0" fill="#0000b2"/>
+<circle cx="600.0" cy="120.0" r="2.0" stroke="#b20000" stroke-width="4.0" fill="#b20000"/>
+</g>
+<g class="Input" id="~SET" pointer-events="visible">
+<path d="M 329,85 L 359,85 L 359,115 L 329,115 Z" stroke="#000000" stroke-width="4.0" fill="none"/>
+<circle cx="344.0" cy="100.0" r="9.0" stroke="#000000" stroke-width="4.0" fill="none" class="~SET"/>
+<text text-anchor="end" x="315.0" y="109.0" fill="#000000" style="font-size:24px">~SET</text>
+<circle cx="360.0" cy="100.0" r="2.0" stroke="#b20000" stroke-width="4.0" fill="#b20000" />
+</g>
+<g class="Input" id="~CLR" pointer-events="visible">
+<path d="M 329,265 L 359,265 L 359,295 L 329,295 Z" stroke="#000000" stroke-width="4.0" fill="none"/>
+<circle cx="344.0" cy="280.0" r="9.0" stroke="#000000" stroke-width="4.0" fill="none" class="~CLR"/>
+<text text-anchor="end" x="315.0" y="289.0" fill="#000000" style="font-size:24px">~CLR</text>
+<circle cx="360.0" cy="280.0" r="2.0" stroke="#b20000" stroke-width="4.0" fill="#b20000"/>
+</g>
+<g class="Input" id="D" pointer-events="visible">
+<path d="M 329,605 L 359,605 L 359,635 L 329,635 Z" stroke="#000000" stroke-width="4.0" fill="none"/>
+<circle cx="344.0" cy="620.0" r="9.0" stroke="#000000" stroke-width="4.0" fill="none" class="D"/>
+<text text-anchor="end" x="315.0" y="629.0" fill="#000000" style="font-size:24px"><tspan style="font-style:italic;">D</tspan></text>
+<circle cx="360.0" cy="620.0" r="2.0" stroke="#b20000" stroke-width="4.0" fill="#b20000"/>
+</g>
+<g class="Input" id="CLK" pointer-events="visible">
+<path d="M 329,425 L 359,425 L 359,455 L 329,455 Z" stroke="#000000" stroke-width="4.0" fill="none"/>
+<circle cx="344.0" cy="440.0" r="9.0" stroke="#000000" stroke-width="4.0" fill="none" class="CLK"/>
+<text text-anchor="end" x="315.0" y="449.0" fill="#000000" style="font-size:24px"><tspan style="font-style:italic;">CLK</tspan></text>
+<circle cx="360.0" cy="440.0" r="2.0" stroke="#b20000" stroke-width="4.0" fill="#b20000"/>
+</g>
+<g class="output">
+<circle cx="936.0" cy="280.0" r="9.0" stroke="#000000" stroke-width="4.0" fill="none" class="nand5_OUT"/>
+<circle cx="936.0" cy="280.0" r="15.0" stroke="#000000" stroke-width="4.0" fill="none"/>
+<text text-anchor="start" x="965.0" y="289.0" fill="#000000" style="font-size:24px"><tspan style="font-style:italic;">Q</tspan></text>
+<circle cx="920.0" cy="280.0" r="2.0" stroke="#0000b2" stroke-width="4.0" fill="#0000b2"/>
+</g>
+<g class="output">
+<circle cx="936.0" cy="420.0" r="9.0" stroke="#000000" stroke-width="4.0" fill="none" class="nand6_OUT"/>
+<circle cx="936.0" cy="420.0" r="15.0" stroke="#000000" stroke-width="4.0" fill="none"/>
+<text text-anchor="start" x="965.0" y="429.0" fill="#000000" style="font-size:24px">~Q</text>
+<circle cx="920.0" cy="420.0" r="2.0" stroke="#0000b2" stroke-width="4.0" fill="#0000b2"/>
+</g>
+<g class="NAND3"  pointer-events="visible">
+<path d="M 550,630 L 501,630 L 501,570 L 550,570 C 560,570 580,580 579,600 C 579,620 560,630 550,630 Z" stroke="#000000" stroke-width="4.0" fill="none"/>
+<circle cx="590.0" cy="600.0" r="9.0" stroke="#000000" stroke-width="4.0" fill="none"/>
+<circle cx="500.0" cy="580.0" r="2.0" stroke="#0000b2" stroke-width="4.0" fill="#0000b2"/>
+<circle cx="500.0" cy="600.0" r="2.0" stroke="#0000b2" stroke-width="4.0" fill="#0000b2"/>
+<circle cx="500.0" cy="620.0" r="2.0" stroke="#0000b2" stroke-width="4.0" fill="#0000b2"/>
+<circle cx="600.0" cy="600.0" r="2.0" stroke="#b20000" stroke-width="4.0" fill="#b20000"/>
+</g>
+</g>
+</svg>

@@ -1,0 +1,301 @@
+/* css reset */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+body {
+    font-family: monospace;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.controls {
+    margin: 15px auto;
+}
+
+.container {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 2fr auto 2fr;
+}
+
+.column {
+    margin: 0 10px;
+}
+
+.middle-column {
+    display: flex;
+}
+
+.title {
+    display: block;
+    margin-bottom: 8px;
+    color: #333333;
+    font-size: 1.5em;
+}
+
+.leds {
+    font-size: 0px;
+}
+
+.led {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    display: inline-block;
+    opacity: 35%;
+    margin-left: 1px;
+    margin-right: 1px;
+}
+
+.input {
+    height: 25px;
+    width: 25px;
+    display: inline-block;
+    opacity: 35%;
+    margin-left: 1px;
+    margin-right: 1px;
+    cursor: pointer;
+}
+
+.divider {
+    width: 13px;
+    display: inline-block;
+}
+
+.module {
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #EAEAEA;
+}
+
+.green {
+    background-color: #008000;
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: #007aff;
+}
+
+.yellow {
+    background-color: #ffbf00;
+}
+
+.high-impedance {
+    background-color: grey;
+}
+
+.active {
+    opacity: 100%;
+}
+
+.seven-segment-display {
+    display: flex;
+}
+
+.seven-segment-display-digit {
+    font-family: 'Seven Segment', sans-serif;
+    font-size: 4em;
+    color: red;
+    background-color: black;
+    width: 1ch;
+    line-height: 1;
+    height: 1em;
+    text-align: right;
+    padding: 3px;
+}
+
+.stickers {
+    margin-top: 3px;
+    display: flex;
+}
+
+.sticker {
+    display: inline-flex;
+    width: 27px;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    align-items: center;
+}
+
+.sticker2 {
+    margin-top: 2px;
+    width: 27px;
+    text-align: center;
+    text-decoration: overline;
+}
+
+.sticker3 {
+    margin-top: 2px;
+    width: 27px;
+    text-align: center;
+}
+
+.sum-register {
+    display: flex;
+}
+
+.flex {
+    display: flex;
+}
+
+.mr-10 {
+    margin-right: 10px;
+}
+
+.grid {
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.clock-button {
+    margin-left: 10px;
+}
+
+.slider {
+    width: 50px;
+    margin-left: 10px;
+}
+
+.ram-line,
+.line-counter {
+    margin-top: 2px;
+    width: 3ch;
+    margin-right: 1ch;
+    line-height: 1em;
+    font-size: 1em;
+    color: #3333337c;
+}
+
+.active-line {
+    color: #333333;
+
+}
+
+.code {
+    width: 70%;
+}
+
+.bootstrapper-textarea {
+    width: 100%;
+    resize: none;
+    line-height: 1em;
+    font-size: 1em;
+}
+
+.ram div {
+    line-height: 1em;
+    font-size: 1em;
+}
+
+.ram-values {
+    margin-top: 2px;
+}
+
+.ram-value {
+    display: flex;
+    line-height: 1em;
+    font-size: 1em;
+}
+
+#program {
+    margin-top: 10px;
+}

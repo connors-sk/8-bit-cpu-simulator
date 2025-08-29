@@ -1,0 +1,46 @@
+body {
+    margin: 0px;
+}
+
+.svg-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+path.active {
+    stroke: lightgreen;
+}
+
+circle.active {
+    stroke: lightgreen;
+    fill: lightgreen;
+}
+
+path.inactive {
+    stroke: green;
+}
+
+circle.inactive {
+    stroke: green;
+    fill: green;
+}
+
+path.high-impedance {
+    stroke: grey;
+}
+
+circle.high-impedance {
+    stroke: grey;
+    fill: grey;
+}
+
+.Input {
+    cursor: pointer;
+}
+
+g[pointer-events=visible] {
+    cursor: pointer;
+    pointer-events: visible;
+}

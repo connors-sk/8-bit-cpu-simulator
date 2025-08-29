@@ -1,0 +1,113 @@
+<svg xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" width="1000px" viewBox="-263 -680 961 573">
+   <g stroke-linecap="square">
+      <path d="M 160,-200 L 160,-420 L 320,-420" stroke="#0000b2" stroke-width="4.0" fill="none" class="CLK"/>
+      <path d="M 140,-440 L 320,-440" stroke="#0000b2" stroke-width="4.0" fill="none" class="or_OUT"/>
+      <path d="M -200,-440 L -80,-440" stroke="#0000b2" stroke-width="4.0" fill="none" class="J"/>
+      <path d="M 480,-460 L 480,-440 L 620,-440" stroke="#0000b2" stroke-width="4.0" fill="none" class="dff_~Q"/>
+      <path d="M 300,-260 L 300,-460 L 320,-460" stroke="#0000b2" stroke-width="4.0" fill="none" class="~CLR"/>
+      <path d="M 0,-460 L 60,-460 L 64,-460" stroke="#0000b2" stroke-width="4.0" fill="none" class="and1_OUT"/>
+      <path d="M 0,-380 L 40,-380 L 40,-420 L 60,-420 L 64,-420" stroke="#0000b2" stroke-width="4.0" fill="none" class="and2_OUT"/>
+      <path d="M -140,-400 L -80,-400" stroke="#0000b2" stroke-width="4.0" fill="none" class="not1_OUT"/>
+      <path d="M -200,-400 L -180,-400" stroke="#0000b2" stroke-width="4.0" fill="none" class="K"/>
+      <path d="M 300,-580 L 300,-480 L 320,-480" stroke="#0000b2" stroke-width="4.0" fill="none" class="~SET"/>
+      <path d="M 440,-480 L 520,-480 L 580,-480 L 580,-520 L 620,-520" stroke="#0000b2" stroke-width="4.0" fill="none" class="dff_Q"/>
+      <path d="M -80,-360 L -100,-360 L -100,-320 L 520,-320 L 520,-480" stroke="#0000b2" stroke-width="4.0" fill="none" class="dff_Q"/>
+      <path d="M 440,-460 L 480,-460 L 480,-520 L -100,-520 L -100,-480 L -80,-480" stroke="#0000b2" stroke-width="4.0" fill="none" class="dff_~Q"/>
+      <g>
+         <circle cx="480.0" cy="-460.0" r="4.0" stroke="#0000b2" stroke-width="4.0" fill="#0000b2" class="dff_~Q"/>
+         <circle cx="520.0" cy="-480.0" r="4.0" stroke="#0000b2" stroke-width="4.0" fill="#0000b2" class="dff_Q"/>
+      </g>
+      <g class="Input" id="J" pointer-events="visible">
+         <path d="M -231,-455 L -201,-455 L -201,-425 L -231,-425 Z" stroke="#000000" stroke-width="4.0" fill="none"/>
+         <circle cx="-216.0" cy="-440.0" r="9.0" stroke="#000000" stroke-width="4.0" fill="none" class="J"/>
+         <text text-anchor="end" x="-245.0" y="-431.0" fill="#000000" style="font-size:24px">
+            <tspan style="font-style:italic;">J</tspan>
+         </text>
+         <circle cx="-200.0" cy="-440.0" r="2.0" stroke="#b20000" stroke-width="4.0" fill="#b20000"/>
+      </g>
+      <g class="Input" id="K" pointer-events="visible">
+         <path d="M -231,-415 L -201,-415 L -201,-385 L -231,-385 Z" stroke="#000000" stroke-width="4.0" fill="none"/>
+         <circle cx="-216.0" cy="-400.0" r="9.0" stroke="#000000" stroke-width="4.0" fill="none" class="K"/>
+         <text text-anchor="end" x="-245.0" y="-391.0" fill="#000000" style="font-size:24px">
+            <tspan style="font-style:italic;">K</tspan>
+         </text>
+         <circle cx="-200.0" cy="-400.0" r="2.0" stroke="#b20000" stroke-width="4.0" fill="#b20000"/>
+      </g>
+      <g class="Input" id="CLK" pointer-events="visible">
+         <path d="M 145,-169 L 145,-199 L 175,-199 L 175,-169 Z" stroke="#000000" stroke-width="4.0" fill="none"/>
+         <circle cx="160.0" cy="-184.0" r="9.0" stroke="#000000" stroke-width="4.0" fill="none" class="CLK"/>
+         <text text-anchor="end" x="160.0" y="-146.0" fill="#000000" style="font-size:24px" transform="rotate(-90,160.0,-155.0)">
+            <tspan style="font-style:italic;">CLK</tspan>
+         </text>
+         <circle cx="160.0" cy="-200.0" r="2.0" stroke="#b20000" stroke-width="4.0" fill="#b20000"/>
+      </g>
+      <g class="OR" id="or" pointer-events="visible">
+         <path d="M 90,-410 L 60,-410 C 70,-426 70,-454 60,-470 L 80,-470 C 110,-470 130,-460 140,-440 C 130,-420 110,-410 90,-410 Z" stroke="#000000" stroke-width="4.0" fill="none"/>
+         <circle cx="60.0" cy="-460.0" r="2.0" stroke="#0000b2" stroke-width="4.0" fill="#0000b2"/>
+         <circle cx="60.0" cy="-420.0" r="2.0" stroke="#0000b2" stroke-width="4.0" fill="#0000b2"/>
+         <circle cx="140.0" cy="-440.0" r="2.0" stroke="#b20000" stroke-width="4.0" fill="#b20000"/>
+      </g>
+      <g class="AND" id="and1" pointer-events="visible">
+         <path d="M -30,-430 L -79,-430 L -79,-490 L -30,-490 C -20,-490 0,-480 -1,-460 C -1,-440 -20,-430 -30,-430 Z" stroke="#000000" stroke-width="4.0" fill="none"/>
+         <circle cx="-80.0" cy="-480.0" r="2.0" stroke="#0000b2" stroke-width="4.0" fill="#0000b2"/>
+         <circle cx="-80.0" cy="-440.0" r="2.0" stroke="#0000b2" stroke-width="4.0" fill="#0000b2"/>
+         <circle cx="0.0" cy="-460.0" r="2.0" stroke="#b20000" stroke-width="4.0" fill="#b20000"/>
+      </g>
+      <g class="AND" id="and2" pointer-events="visible">
+         <path d="M -30,-350 L -79,-350 L -79,-410 L -30,-410 C -20,-410 0,-400 -1,-380 C -1,-360 -20,-350 -30,-350 Z" stroke="#000000" stroke-width="4.0" fill="none"/>
+         <circle cx="-80.0" cy="-400.0" r="2.0" stroke="#0000b2" stroke-width="4.0" fill="#0000b2"/>
+         <circle cx="-80.0" cy="-360.0" r="2.0" stroke="#0000b2" stroke-width="4.0" fill="#0000b2"/>
+         <circle cx="0.0" cy="-380.0" r="2.0" stroke="#b20000" stroke-width="4.0" fill="#b20000"/>
+      </g>
+      <g id="~SET" class="Input" pointer-events="visible">
+         <path d="M 315,-611 L 315,-581 L 285,-581 L 285,-611 Z" stroke="#000000" stroke-width="4.0" fill="none"/>
+         <circle cx="300.0" cy="-596.0" r="9.0" stroke="#000000" stroke-width="4.0" fill="none" class="~SET"/>
+         <text text-anchor="start" x="300.0" y="-616.0" fill="#000000" style="font-size:24px" transform="rotate(-90,300.0,-625.0)">~SET</text>
+         <circle cx="300.0" cy="-580.0" r="2.0" stroke="#b20000" stroke-width="4.0" fill="#b20000"/>
+      </g>
+      <g id="~CLR" class="Input" pointer-events="visible">
+         <path d="M 285,-229 L 285,-259 L 315,-259 L 315,-229 Z" stroke="#000000" stroke-width="4.0" fill="none"/>
+         <circle cx="300.0" cy="-244.0" r="9.0" stroke="#000000" stroke-width="4.0" fill="none" class="~CLR"/>
+         <text text-anchor="end" x="300.0" y="-206.0" fill="#000000" style="font-size:24px" transform="rotate(-90,300.0,-215.0)">~CLR</text>
+         <circle cx="300.0" cy="-260.0" r="2.0" stroke="#b20000" stroke-width="4.0" fill="#b20000"/>
+      </g>
+      <g id="Q" class="Output">
+         <circle cx="636.0" cy="-520.0" r="9.0" stroke="#000000" stroke-width="4.0" fill="none" class="dff_Q"/>
+         <circle cx="636.0" cy="-520.0" r="15.0" stroke="#000000" stroke-width="4.0" fill="none" class=""/>
+         <text text-anchor="start" x="665.0" y="-511.0" fill="#000000" style="font-size:24px">
+            <tspan style="font-style:italic;">Q</tspan>
+         </text>
+         <circle cx="620.0" cy="-520.0" r="2.0" stroke="#0000b2" stroke-width="4.0" fill="#0000b2"/>
+      </g>
+      <g id="~Q" class="Output">
+         <circle cx="636.0" cy="-440.0" r="9.0" stroke="#000000" stroke-width="4.0" fill="none" class="dff_~Q"/>
+         <circle cx="636.0" cy="-440.0" r="15.0" stroke="#000000" stroke-width="4.0" fill="none" class=""/>
+         <text text-anchor="start" x="665.0" y="-431.0" fill="#000000" style="font-size:24px">~Q</text>
+         <circle cx="620.0" cy="-440.0" r="2.0" stroke="#0000b2" stroke-width="4.0" fill="#0000b2"/>
+      </g>
+      <g id="not1" class="NOT" pointer-events="visible">
+         <path d="M -179,-412 L -161,-400 L -179,-388 Z" stroke="#000000" stroke-width="4.0" fill="none"/>
+         <circle cx="-150.0" cy="-400.0" r="9.0" stroke="#000000" stroke-width="4.0" fill="none"/>
+         <circle cx="-180.0" cy="-400.0" r="2.0" stroke="#0000b2" stroke-width="4.0" fill="#0000b2"/>
+         <circle cx="-140.0" cy="-400.0" r="2.0" stroke="#b20000" stroke-width="4.0" fill="#b20000"/>
+      </g>
+      <g id="dff" class="DFF" pointer-events="visible">
+         <path d="M 321,-494 L 439,-494 L 439,-406 L 321,-406 Z" stroke="#ffffb4" stroke-width="0.0" fill="#ffffb4" fill-opacity="0.7843137254901961"/>
+         <path d="M 321,-494 L 439,-494 L 439,-406 L 321,-406 Z" stroke="#000000" stroke-width="4.0" fill="none"/>
+         <text text-anchor="start" x="324.0" y="-473.25" fill="#808080" style="font-size:18px">~SET</text>
+         <text text-anchor="start" x="324.0" y="-453.25" fill="#808080" style="font-size:18px">~CLR</text>
+         <text text-anchor="start" x="324.0" y="-433.25" fill="#808080" style="font-size:18px">D</text>
+         <text text-anchor="start" x="324.0" y="-413.25" fill="#808080" style="font-size:18px">CLK</text>
+         <text text-anchor="end" x="436.0" y="-473.25" fill="#808080" style="font-size:18px">Q</text>
+         <text text-anchor="end" x="436.0" y="-453.25" fill="#808080" style="font-size:18px">~Q</text>
+         <text text-anchor="middle" x="380.0" y="-388.5" fill="#808080" style="font-size:18px">
+            DFF</text>
+         <circle cx="320.0" cy="-480.0" r="2.0" stroke="#0000b2" stroke-width="4.0" fill="#0000b2"/>
+         <circle cx="320.0" cy="-460.0" r="2.0" stroke="#0000b2" stroke-width="4.0" fill="#0000b2"/>
+         <circle cx="320.0" cy="-440.0" r="2.0" stroke="#0000b2" stroke-width="4.0" fill="#0000b2"/>
+         <circle cx="320.0" cy="-420.0" r="2.0" stroke="#0000b2" stroke-width="4.0" fill="#0000b2"/>
+         <circle cx="440.0" cy="-480.0" r="2.0" stroke="#b20000" stroke-width="4.0" fill="#b20000"/>
+         <circle cx="440.0" cy="-460.0" r="2.0" stroke="#b20000" stroke-width="4.0" fill="#b20000"/>
+      </g>
+   </g>
+</svg>

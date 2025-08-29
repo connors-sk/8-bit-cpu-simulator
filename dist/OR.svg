@@ -1,0 +1,54 @@
+<svg xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" width="750px" viewBox="376 208 462 144">
+<g stroke-linecap="square">
+<path d="M 440,240 L 460,240 L 460,220 L 480,220" stroke="#0000b2" stroke-width="4.0" fill="none" class="A"/>
+<path d="M 580,240 L 600,240 L 600,260 L 620,260" stroke="#0000b2" stroke-width="4.0" fill="none" class="nand1"/>
+<path d="M 440,320 L 460,320 L 460,300 L 480,300" stroke="#0000b2" stroke-width="4.0" fill="none" class="B"/>
+<path d="M 580,320 L 600,320 L 600,300 L 620,300" stroke="#0000b2" stroke-width="4.0" fill="none" class="nand2"/>
+<path d="M 460,240 L 460,260 L 480,260" stroke="#0000b2" stroke-width="4.0" fill="none" class="A"/>
+<path d="M 460,320 L 460,340 L 480,340" stroke="#0000b2" stroke-width="4.0" fill="none" class="B"/>
+<path d="M 720,280 L 740,280" stroke="#0000b2" stroke-width="4.0" fill="none" class="nand3"/>
+<g>
+<circle cx="460.0" cy="240.0" r="4.0" stroke="#0000b2" stroke-width="4.0" fill="#0000b2" class="A"/>
+<circle cx="460.0" cy="320.0" r="4.0" stroke="#0000b2" stroke-width="4.0" fill="#0000b2" class="B"/>
+</g>
+<g class="Input" id="A" pointer-events="visible">
+<path d="M 409,225 L 439,225 L 439,255 L 409,255 Z" stroke="#000000" stroke-width="4.0" fill="none"/>
+<circle cx="424.0" cy="240.0" r="9.0" stroke="#000000" stroke-width="4.0" fill="none" class="A"/>
+<text text-anchor="end" x="395.0" y="249.0" fill="#000000" style="font-size:24px"><tspan style="font-style:italic;">A</tspan></text>
+<circle cx="440.0" cy="240.0" r="2.0" stroke="#b20000" stroke-width="4.0" fill="#b20000"/>
+</g>
+<g>
+<path d="M 530,270 L 481,270 L 481,210 L 530,210 C 540,210 560,220 559,240 C 559,260 540,270 530,270 Z" stroke="#000000" stroke-width="4.0" fill="none"/>
+<circle cx="570.0" cy="240.0" r="9.0" stroke="#000000" stroke-width="4.0" fill="none"/>
+<circle cx="480.0" cy="220.0" r="2.0" stroke="#0000b2" stroke-width="4.0" fill="#0000b2"/>
+<circle cx="480.0" cy="260.0" r="2.0" stroke="#0000b2" stroke-width="4.0" fill="#0000b2"/>
+<circle cx="580.0" cy="240.0" r="2.0" stroke="#b20000" stroke-width="4.0" fill="#b20000"/>
+</g>
+<g>
+<path d="M 530,350 L 481,350 L 481,290 L 530,290 C 540,290 560,300 559,320 C 559,340 540,350 530,350 Z" stroke="#000000" stroke-width="4.0" fill="none"/>
+<circle cx="570.0" cy="320.0" r="9.0" stroke="#000000" stroke-width="4.0" fill="none"/>
+<circle cx="480.0" cy="300.0" r="2.0" stroke="#0000b2" stroke-width="4.0" fill="#0000b2"/>
+<circle cx="480.0" cy="340.0" r="2.0" stroke="#0000b2" stroke-width="4.0" fill="#0000b2"/>
+<circle cx="580.0" cy="320.0" r="2.0" stroke="#b20000" stroke-width="4.0" fill="#b20000"/>
+</g>
+<g class="Input" id="B" pointer-events="visible">
+<path d="M 409,305 L 439,305 L 439,335 L 409,335 Z" stroke="#000000" stroke-width="4.0" fill="none"/>
+<circle cx="424.0" cy="320.0" r="9.0" stroke="#000000" stroke-width="4.0" fill="none" class="B"/>
+<text text-anchor="end" x="395.0" y="329.0" fill="#000000" style="font-size:24px"><tspan style="font-style:italic;">B</tspan></text>
+<circle cx="440.0" cy="320.0" r="2.0" stroke="#b20000" stroke-width="4.0" fill="#b20000"/>
+</g>
+<g>
+<path d="M 670,310 L 621,310 L 621,250 L 670,250 C 680,250 700,260 699,280 C 699,300 680,310 670,310 Z" stroke="#000000" stroke-width="4.0" fill="none"/>
+<circle cx="710.0" cy="280.0" r="9.0" stroke="#000000" stroke-width="4.0" fill="none"/>
+<circle cx="620.0" cy="260.0" r="2.0" stroke="#0000b2" stroke-width="4.0" fill="#0000b2"/>
+<circle cx="620.0" cy="300.0" r="2.0" stroke="#0000b2" stroke-width="4.0" fill="#0000b2"/>
+<circle cx="720.0" cy="280.0" r="2.0" stroke="#b20000" stroke-width="4.0" fill="#b20000"/>
+</g>
+<g class="Output" id="OUT">
+<circle cx="756.0" cy="280.0" r="9.0" stroke="#000000" stroke-width="4.0" fill="none" class="nand3"/>
+<circle cx="756.0" cy="280.0" r="15.0" stroke="#000000" stroke-width="4.0" fill="none"/>
+<text text-anchor="start" x="785.0" y="289.0" fill="#000000" style="font-size:24px"><tspan style="font-style:italic;">OUT</tspan></text>
+<circle cx="740.0" cy="280.0" r="2.0" stroke="#0000b2" stroke-width="4.0" fill="#0000b2"/>
+</g>
+</g>
+</svg>

@@ -1,0 +1,29 @@
+<svg xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" width="450px" viewBox="288 168 330 64">
+<g stroke-linecap="square">
+<path d="M 360,200 L 380,200 L 380,180 L 400,180" stroke="#0000b2" stroke-width="4.0" fill="none" class="IN"/>
+<path d="M 500,200 L 520,200" stroke="#0000b2" stroke-width="4.0" fill="none" class="nand"/>
+<path d="M 380,200 L 380,220 L 400,220" stroke="#0000b2" stroke-width="4.0" fill="none" class="IN"/>
+<g>
+<circle cx="380.0" cy="200.0" r="4.0" stroke="#0000b2" stroke-width="4.0" fill="#0000b2" class="IN"/>
+</g>
+<g>
+<path d="M 450,230 L 401,230 L 401,170 L 450,170 C 460,170 480,180 479,200 C 479,220 460,230 450,230 Z" stroke="#000000" stroke-width="4.0" fill="none"/>
+<circle cx="490.0" cy="200.0" r="9.0" stroke="#000000" stroke-width="4.0" fill="none"/>
+<circle cx="400.0" cy="180.0" r="2.0" stroke="#0000b2" stroke-width="4.0" fill="#0000b2"/>
+<circle cx="400.0" cy="220.0" r="2.0" stroke="#0000b2" stroke-width="4.0" fill="#0000b2"/>
+<circle cx="500.0" cy="200.0" r="2.0" stroke="#b20000" stroke-width="4.0" fill="#b20000"/>
+</g>
+<g class="Input" id="IN" pointer-events="visible">
+<path d="M 329,185 L 359,185 L 359,215 L 329,215 Z" stroke="#000000" stroke-width="4.0" fill="none"/>
+<circle cx="344.0" cy="200.0" r="9.0" stroke="#000000" stroke-width="4.0" fill="none" class="IN"/>
+<text text-anchor="end" x="315.0" y="209.0" fill="#000000" style="font-size:24px"><tspan style="font-style:italic;">IN</tspan></text>
+<circle cx="360.0" cy="200.0" r="2.0" stroke="#b20000" stroke-width="4.0" fill="#b20000"/>
+</g>
+<g class="Output" id="OUT">
+<circle cx="536.0" cy="200.0" r="9.0" stroke="#000000" stroke-width="4.0" fill="none" class="nand"/>
+<circle cx="536.0" cy="200.0" r="15.0" stroke="#000000" stroke-width="4.0" fill="none" class="OUT"/>
+<text text-anchor="start" x="565.0" y="209.0" fill="#000000" style="font-size:24px"><tspan style="font-style:italic;">OUT</tspan></text>
+<circle cx="520.0" cy="200.0" r="2.0" stroke="#0000b2" stroke-width="4.0" fill="#0000b2"/>
+</g>
+</g>
+</svg>

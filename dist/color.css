@@ -1,0 +1,2210 @@
+.svg-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.flex {
+    display: flex;
+}
+
+.label {
+    padding-right: 10px;
+}
+
+.mb10 {
+    margin-bottom: 10px;
+}
+
+.legend {
+    display: inline-block;
+    width: 15px;
+    height: 20px;
+    margin: 2px 2px 2px 2px;
+}
+
+.A {
+    stroke: #1E90FF;
+    background-color: hsl(210, 100%, 56%);
+}
+
+.B {
+    stroke: #FF6347;
+    background-color: #FF6347;
+}
+
+/* Tomato */
+.C {
+    stroke: #32CD32;
+    background-color: #32CD32;
+}
+
+/* LimeGreen */
+.D {
+    stroke: #FFD700;
+    background-color: #FFD700;
+}
+
+/* Gold */
+.ENABLE {
+    stroke: #8A2BE2;
+    background-color: #8A2BE2;
+}
+
+/* BlueViolet */
+.LOAD {
+    stroke: #DC143C;
+    background-color: #DC143C;
+}
+
+/* Crimson */
+.CLK {
+    stroke: #00FA9A;
+    background-color: #00FA9A;
+}
+
+/* MediumSpringGreen */
+.CLR {
+    stroke: #FF4500;
+    background-color: #FF4500;
+}
+
+/* OrangeRed */
+.PC2 {
+    stroke: #4682B4;
+    background-color: #4682B4;
+}
+
+/* SteelBlue */
+.PC1 {
+    stroke: #6A5ACD;
+}
+
+/* SlateBlue */
+.PC0{
+    stroke: #FF69B4;
+}
+
+/* HotPink */
+.OUT3 {
+    stroke: #20B2AA;
+}
+
+/* LightSeaGreen */
+.OUT2 {
+    stroke: #B22222;
+}
+
+/* FireBrick */
+.OUT1 {
+    stroke: #7FFF00;
+}
+
+/* Chartreuse */
+.OUT0 {
+    stroke: #5F9EA0;
+}
+
+/* CadetBlue */
+.CO {
+    stroke: #FF8C00;
+}
+
+/* DarkOrange */
+.CLR {
+    stroke: #9932CC;
+}
+
+/* DarkOrchid */
+.CLK {
+    stroke: #2E8B57;
+}
+
+/* SeaGreen */
+.J {
+    stroke: #FF1493;
+}
+
+/* DeepPink */
+.CE {
+    stroke: #7B68EE;
+}
+
+
+/* DarkOrange */
+.tri_OUT0 {
+    stroke: #9932CC;
+}
+
+/* DarkOrchid */
+.tri_OUT1 {
+    stroke: #2E8B57;
+}
+
+/* SeaGreen */
+.tri_OUT2 {
+    stroke: #FF1493;
+}
+
+/* DeepPink */
+.tri_OUT3 {
+    stroke: #7B68EE;
+}
+
+/* DarkOrange */
+.tri_OUT4 {
+    stroke: #9932CC;
+}
+
+/* DarkOrchid */
+.tri_OUT5 {
+    stroke: #2E8B57;
+}
+
+/* SeaGreen */
+.tri_OUT6 {
+    stroke: #FF1493;
+}
+
+/* DeepPink */
+.tri_OUT7 {
+    stroke: #7B68EE;
+}
+
+
+/* DarkOrange */
+.counter_Q0 {
+    stroke: #9932CC;
+}
+
+/* DarkOrchid */
+.counter_Q1 {
+    stroke: #2E8B57;
+}
+
+/* SeaGreen */
+.counter_Q2 {
+    stroke: #FF1493;
+}
+
+/* DeepPink */
+.counter_Q3 {
+    stroke: #7B68EE;
+}
+
+
+/* DarkOrange */
+.nand1 {
+    stroke: #9932CC;
+}
+
+/* DarkOrchid */
+.nand2 {
+    stroke: #2E8B57;
+}
+
+/* SeaGreen */
+.nand3 {
+    stroke: #FF1493;
+}
+
+/* DeepPink */
+.nand4 {
+    stroke: #7B68EE;
+}
+
+/* DeepPink */
+.IN {
+    stroke: #7B68EE;
+}
+
+/* SeaGreen */
+.nand {
+    stroke: #FF1493;
+}
+
+/* DeepPink */
+.and_OUT {
+    stroke: #7B68EE;
+}
+
+/* DeepPink */
+.not_OUT {
+    stroke: #7B68EE;
+}
+
+/* DeepPink */
+.not0_OUT {
+    stroke: #7B68EE;
+}
+
+/* DarkOrange */
+.not1_OUT {
+    stroke: #9932CC;
+}
+
+/* DarkOrchid */
+.not2_OUT {
+    stroke: #2E8B57;
+}
+
+/* SeaGreen */
+.not3_OUT {
+    stroke: #FF1493;
+}
+
+/* DeepPink */
+.not4_OUT {
+    stroke: #7B68EE;
+}
+
+/* DeepPink */
+.and_OUT {
+    stroke: #7B68EE;
+}
+
+/* DeepPink */
+.and0_OUT {
+    stroke: #7B68EE;
+}
+
+/* DarkOrange */
+.and1_OUT {
+    stroke: #9932CC;
+}
+
+/* DarkOrchid */
+.and2_OUT {
+    stroke: #2E8B57;
+}
+
+/* SeaGreen */
+.and3_OUT {
+    stroke: #FF1493;
+}
+
+/* DeepPink */
+.and4_OUT {
+    stroke: #7B68EE;
+}
+
+/* DeepPink */
+.and5_OUT {
+    stroke: #7B68EE;
+}
+
+/* DarkOrange */
+.and6_OUT {
+    stroke: #9932CC;
+}
+
+/* DarkOrchid */
+.and7_OUT {
+    stroke: #2E8B57;
+}
+
+/* SeaGreen */
+.and8_OUT {
+    stroke: #FF1493;
+}
+
+
+/* DeepPink */
+.or_OUT {
+    stroke: #7B68EE;
+}
+
+/* DarkOrange */
+.or1_OUT {
+    stroke: #9932CC;
+}
+
+/* DarkOrchid */
+.or2_OUT {
+    stroke: #2E8B57;
+}
+
+/* SeaGreen */
+.or3_OUT {
+    stroke: #FF1493;
+}
+
+/* DeepPink */
+.or4_OUT {
+    stroke: #7B68EE;
+}
+
+/* DeepPink */
+.dff_Q {
+    stroke: #7B68EE;
+}
+
+/* DeepPink */
+.OUT {
+    stroke: #7B68EE;
+}
+
+/* DeepPink */
+.SUM {
+    stroke: #7B68EE;
+}
+
+/* DarkOrange */
+.D0 {
+    stroke: #9932CC;
+}
+
+/* DarkOrchid */
+.D1 {
+    stroke: #2E8B57;
+}
+
+/* SeaGreen */
+.D2 {
+    stroke: #FF1493;
+}
+
+/* DeepPink */
+.D3 {
+    stroke: #7B68EE;
+}
+
+/* DarkOrange */
+.D4 {
+    stroke: #9932CC;
+}
+
+/* DarkOrchid */
+.D5 {
+    stroke: #2E8B57;
+}
+
+/* SeaGreen */
+.D6 {
+    stroke: #FF1493;
+}
+
+/* DeepPink */
+.D7 {
+    stroke: #7B68EE;
+}
+
+
+
+/* DarkOrange */
+.register_OUT0 {
+    stroke: #9932CC;
+}
+
+/* DarkOrchid */
+.register_OUT1 {
+    stroke: #2E8B57;
+}
+
+/* SeaGreen */
+.register_OUT2 {
+    stroke: #FF1493;
+}
+
+/* DeepPink */
+.register_OUT3 {
+    stroke: #7B68EE;
+}
+
+/* DarkOrange */
+.register_OUT4 {
+    stroke: #9932CC;
+}
+
+/* DarkOrchid */
+.register_OUT5 {
+    stroke: #2E8B57;
+}
+
+/* SeaGreen */
+.register_OUT6 {
+    stroke: #FF1493;
+}
+
+/* DeepPink */
+.register_OUT7 {
+    stroke: #7B68EE;
+}
+
+
+
+
+/* DarkOrange */
+.register0_OUT0 {
+    stroke: #9932CC;
+}
+
+/* DarkOrchid */
+.register0_OUT1 {
+    stroke: #2E8B57;
+}
+
+/* SeaGreen */
+.register1_OUT0 {
+    stroke: #FF1493;
+}
+
+/* DeepPink */
+.register1_OUT1 {
+    stroke: #7B68EE;
+}
+
+
+/* DarkOrange */
+.register0_OUT0 {
+    stroke: #9932CC;
+}
+
+/* DarkOrchid */
+.register0_OUT1 {
+    stroke: #2E8B57;
+}
+
+/* SeaGreen */
+.register0_OUT2 {
+    stroke: #FF1493;
+}
+
+/* DeepPink */
+.register0_OUT3 {
+    stroke: #7B68EE;
+}
+
+
+
+/* DarkOrange */
+.register1_OUT0 {
+    stroke: #9932CC;
+}
+
+/* DarkOrchid */
+.register1_OUT1 {
+    stroke: #2E8B57;
+}
+
+/* SeaGreen */
+.register1_OUT2 {
+    stroke: #FF1493;
+}
+
+/* DeepPink */
+.register1_OUT3 {
+    stroke: #7B68EE;
+}
+
+/* HotPink */
+.OUT7 {
+    stroke: #20B2AA;
+}
+
+/* LightSeaGreen */
+.OUT6 {
+    stroke: #B22222;
+}
+
+/* FireBrick */
+.OUT5 {
+    stroke: #7FFF00;
+}
+
+/* Chartreuse */
+.OUT4 {
+    stroke: #5F9EA0;
+}
+
+
+/* HotPink */
+.AO {
+    stroke: #20B2AA;
+}
+
+/* LightSeaGreen */
+.AI {
+    stroke: #B22222;
+}
+
+/* FireBrick */
+.OUT5 {
+    stroke: #7FFF00;
+}
+
+/* Chartreuse */
+.OUT4 {
+    stroke: #5F9EA0;
+}
+
+
+
+/* DarkOrange */
+.register_OUT0 {
+    stroke: #9932CC;
+}
+
+/* DarkOrchid */
+.register_OUT1 {
+    stroke: #2E8B57;
+}
+
+/* SeaGreen */
+.register_OUT2 {
+    stroke: #FF1493;
+}
+
+/* DeepPink */
+.register_OUT3 {
+    stroke: #7B68EE;
+}
+
+
+
+
+/* DarkOrange */
+.A0 {
+    stroke: #9932CC;
+}
+
+/* DarkOrchid */
+.A1 {
+    stroke: #2E8B57;
+}
+
+/* SeaGreen */
+.A2 {
+    stroke: #FF1493;
+}
+
+/* DeepPink */
+.A3 {
+    stroke: #7B68EE;
+}
+
+/* DarkOrange */
+.A4 {
+    stroke: #9932CC;
+}
+
+/* DarkOrchid */
+.A5 {
+    stroke: #2E8B57;
+}
+
+/* SeaGreen */
+.A6 {
+    stroke: #FF1493;
+}
+
+/* DeepPink */
+.A7 {
+    stroke: #7B68EE;
+}
+
+/* DarkOrange */
+.B0 {
+    stroke: #9932CC;
+}
+
+/* DarkOrchid */
+.B1 {
+    stroke: #2E8B57;
+}
+
+/* SeaGreen */
+.B2 {
+    stroke: #FF1493;
+}
+
+/* DeepPink */
+.B3 {
+    stroke: #7B68EE;
+}
+
+/* DarkOrange */
+.B4 {
+    stroke: #9932CC;
+}
+
+/* DarkOrchid */
+.B5 {
+    stroke: #2E8B57;
+}
+
+/* SeaGreen */
+.B6 {
+    stroke: #FF1493;
+}
+
+/* DeepPink */
+.B7 {
+    stroke: #7B68EE;
+}
+
+
+/* DarkOrange */
+.xor0 {
+    stroke: #9932CC;
+}
+
+/* DarkOrchid */
+.xor1 {
+    stroke: #2E8B57;
+}
+
+/* SeaGreen */
+.xor2 {
+    stroke: #FF1493;
+}
+
+/* DeepPink */
+.xor3 {
+    stroke: #7B68EE;
+}
+
+/* DarkOrange */
+.xor4 {
+    stroke: #9932CC;
+}
+
+/* DarkOrchid */
+.xor5 {
+    stroke: #2E8B57;
+}
+
+/* SeaGreen */
+.xor6 {
+    stroke: #FF1493;
+}
+
+/* DeepPink */
+.xor7 {
+    stroke: #7B68EE;
+}
+
+
+
+/* DarkOrange */
+.SU {
+    stroke: #9932CC;
+}
+
+/* DarkOrchid */
+.CI {
+    stroke: #2E8B57;
+}
+
+/* SeaGreen */
+.EO {
+    stroke: #FF1493;
+}
+
+/* DeepPink */
+.B3 {
+    stroke: #7B68EE;
+}
+
+
+/* DarkOrange */
+.SUM0 {
+    stroke: #9932CC;
+}
+
+/* DarkOrchid */
+.SUM1 {
+    stroke: #2E8B57;
+}
+
+/* SeaGreen */
+.SUM2 {
+    stroke: #FF1493;
+}
+
+/* DeepPink */
+.SUM3 {
+    stroke: #7B68EE;
+}
+
+/* DarkOrange */
+.SUM4 {
+    stroke: #9932CC;
+}
+
+/* DarkOrchid */
+.SUM5 {
+    stroke: #2E8B57;
+}
+
+/* SeaGreen */
+.SUM6 {
+    stroke: #FF1493;
+}
+
+/* DeepPink */
+.SUM7 {
+    stroke: #7B68EE;
+}
+
+
+
+/* DarkOrange */
+.adder0_SUM0 {
+    stroke: #9932CC;
+}
+
+/* DarkOrchid */
+.adder0_SUM1 {
+    stroke: #2E8B57;
+}
+
+/* SeaGreen */
+.adder0_SUM2 {
+    stroke: #FF1493;
+}
+
+/* DeepPink */
+.adder0_SUM3 {
+    stroke: #7B68EE;
+}
+
+/* DarkOrange */
+.adder1_SUM0 {
+    stroke: #9932CC;
+}
+
+/* DarkOrchid */
+.adder1_SUM1 {
+    stroke: #2E8B57;
+}
+
+/* SeaGreen */
+.adder1_SUM2 {
+    stroke: #FF1493;
+}
+
+/* DeepPink */
+.adder1_SUM3 {
+    stroke: #7B68EE;
+}
+
+/* DarkOrange */
+.adder0_CO {
+    stroke: #9932CC;
+}
+
+/* DarkOrange */
+.adder1_CO {
+    stroke: #9932CC;
+}
+
+
+
+/* DarkOrange */
+.fullAdder0_SUM {
+    stroke: #9932CC;
+}
+
+/* DarkOrchid */
+.fullAdder0_CO {
+    stroke: #2E8B57;
+}
+
+/* SeaGreen */
+.fullAdder1_SUM {
+    stroke: #FF1493;
+}
+
+/* DeepPink */
+.fullAdder1_CO {
+    stroke: #7B68EE;
+}
+
+/* DarkOrange */
+.fullAdder2_CO {
+    stroke: #9932CC;
+}
+
+/* DarkOrchid */
+.fullAdder2_SUM {
+    stroke: #2E8B57;
+}
+
+/* SeaGreen */
+.fullAdder3_SUM {
+    stroke: #FF1493;
+}
+
+/* DeepPink */
+.fullAdder3_CO {
+    stroke: #7B68EE;
+}
+
+
+
+/* DarkOrange */
+.halfAdder1_CO {
+    stroke: #9932CC;
+}
+
+/* DarkOrchid */
+.halfAdder1_SUM {
+    stroke: #2E8B57;
+}
+
+/* SeaGreen */
+.halfAdder2_SUM {
+    stroke: #FF1493;
+}
+
+/* DeepPink */
+.halfAdder2_CO {
+    stroke: #7B68EE;
+}
+
+/* DarkOrange */
+.nor0_OUT {
+    stroke: #9932CC;
+}
+
+/* DarkOrchid */
+.nor1_OUT {
+    stroke: #2E8B57;
+}
+
+/* SeaGreen */
+.nor2_OUT {
+    stroke: #FF1493;
+}
+
+/* DeepPink */
+.nor3_OUT {
+    stroke: #7B68EE;
+}
+
+
+/* DarkOrange */
+.alu_SUM0 {
+    stroke: #9932CC;
+}
+
+/* DarkOrchid */
+.alu_SUM1 {
+    stroke: #2E8B57;
+}
+
+/* SeaGreen */
+.alu_SUM2 {
+    stroke: #FF1493;
+}
+
+/* DeepPink */
+.alu_SUM3 {
+    stroke: #7B68EE;
+}
+
+/* DarkOrange */
+.alu_SUM4 {
+    stroke: #9932CC;
+}
+
+/* DarkOrchid */
+.alu_SUM5 {
+    stroke: #2E8B57;
+}
+
+/* SeaGreen */
+.alu_SUM6 {
+    stroke: #FF1493;
+}
+
+/* DeepPink */
+.alu_SUM7 {
+    stroke: #7B68EE;
+}
+
+/* DarkOrange */
+.alu_CO {
+    stroke: #9932CC;
+}
+
+/* DarkOrange */
+.isZero_OUT {
+    stroke: #9932CC;
+}
+
+/* DarkOrange */
+.ISCARRY {
+    stroke: #9932CC;
+}
+
+/* DarkOrange */
+.ISZERO {
+    stroke: #9932CC;
+}
+
+/* DarkOrange */
+.FI {
+    stroke: #9932CC;
+}
+
+/* DarkOrange */
+.register_OUT {
+    stroke: #9932CC;
+}
+
+/* DarkOrchid */
+.register_OUT {
+    stroke: #2E8B57;
+}
+
+/* DarkOrchid */
+.OI {
+    stroke: #2E8B57;
+}
+
+/* SeaGreen */
+.II {
+    stroke: #FF1493;
+}
+
+/* DeepPink */
+.IO {
+    stroke: #7B68EE;
+}
+
+
+/* DarkOrange */
+.REGI0 {
+    stroke: #9932CC;
+}
+
+/* DarkOrchid */
+.REGI1 {
+    stroke: #2E8B57;
+}
+
+/* SeaGreen */
+.REGI2 {
+    stroke: #FF1493;
+}
+
+/* DeepPink */
+.REGI3 {
+    stroke: #7B68EE;
+}
+
+/* DarkOrange */
+.REGI4 {
+    stroke: #9932CC;
+}
+
+/* DarkOrchid */
+.REGI5 {
+    stroke: #2E8B57;
+}
+
+/* SeaGreen */
+.REGI6 {
+    stroke: #FF1493;
+}
+
+/* DeepPink */
+.REGI7 {
+    stroke: #7B68EE;
+}
+
+
+/* DarkOrange */
+.dff0_Q {
+    stroke: #9932CC;
+}
+
+/* DarkOrchid */
+.dff0_\~Q {
+    stroke: #2E8B57;
+}
+
+/* SeaGreen */
+.dff1_Q {
+    stroke: #FF1493;
+}
+
+/* DeepPink */
+.dff1_\~Q {
+    stroke: #7B68EE;
+}
+
+/* DarkOrange */
+.nor_OUT {
+    stroke: #9932CC;
+}
+
+/* DarkOrange */
+.active {
+    stroke: #9932CC;
+}
+
+/* SeaGreen */
+.dff2_Q {
+    stroke: #FF1493;
+}
+
+/* DeepPink */
+.dff2_\~Q {
+    stroke: #7B68EE;
+}
+
+
+/* DarkOrange */
+.decoder_Y0 {
+    stroke: #9932CC;
+}
+
+/* DarkOrchid */
+.decoder_Y1 {
+    stroke: #2E8B57;
+}
+
+/* SeaGreen */
+.decoder_Y2 {
+    stroke: #FF1493;
+}
+
+/* DeepPink */
+.decoder_Y3 {
+    stroke: #7B68EE;
+}
+
+/* DarkOrange */
+.decoder_Y4 {
+    stroke: #9932CC;
+}
+
+/* DarkOrchid */
+.decoder_Y5 {
+    stroke: #2E8B57;
+}
+
+/* SeaGreen */
+.decoder_Y6 {
+    stroke: #FF1493;
+}
+
+/* DeepPink */
+.decoder_Y7 {
+    stroke: #7B68EE;
+}
+
+/* DarkOrange */
+.decoder_Y8 {
+    stroke: #9932CC;
+}
+
+/* DarkOrchid */
+.decoder_Y9 {
+    stroke: #2E8B57;
+}
+
+/* SeaGreen */
+.decoder_Y10 {
+    stroke: #FF1493;
+}
+
+/* DeepPink */
+.decoder_Y11 {
+    stroke: #7B68EE;
+}
+
+/* DarkOrange */
+.decoder_Y12 {
+    stroke: #9932CC;
+}
+
+/* DarkOrchid */
+.decoder_Y13 {
+    stroke: #2E8B57;
+}
+
+/* SeaGreen */
+.decoder_Y14 {
+    stroke: #FF1493;
+}
+
+/* DeepPink */
+.decoder_Y15 {
+    stroke: #7B68EE;
+}
+
+/* DarkOrange */
+.S0 {
+    stroke: #9932CC;
+}
+
+/* DarkOrchid */
+.S1 {
+    stroke: #2E8B57;
+}
+
+/* SeaGreen */
+.S2 {
+    stroke: #FF1493;
+}
+
+/* DeepPink */
+.S3 {
+    stroke: #7B68EE;
+}
+
+
+
+/* DarkOrange */
+.Y0 {
+    stroke: #9932CC;
+}
+
+/* DarkOrchid */
+.Y1 {
+    stroke: #2E8B57;
+}
+
+/* SeaGreen */
+.Y2 {
+    stroke: #FF1493;
+}
+
+/* DeepPink */
+.Y3 {
+    stroke: #7B68EE;
+}
+
+/* DarkOrange */
+.Y4 {
+    stroke: #9932CC;
+}
+
+/* DarkOrchid */
+.Y5 {
+    stroke: #2E8B57;
+}
+
+/* SeaGreen */
+.Y6 {
+    stroke: #FF1493;
+}
+
+/* DeepPink */
+.Y7 {
+    stroke: #7B68EE;
+}
+
+/* SeaGreen */
+.R {
+    stroke: #FF1493;
+}
+
+/* DeepPink */
+.S {
+    stroke: #7B68EE;
+}
+
+/* DeepPink */
+.W {
+    stroke: #7B68EE;
+}
+
+/* DeepPink */
+.latch_Q {
+    stroke: #7B68EE;
+}
+
+/* DeepPink */
+.latch_\~Q {
+    stroke: #7B68EE;
+}
+
+/* DeepPink */
+.E {
+    stroke: #7B68EE;
+}
+
+/* DeepPink */
+.SEL {
+    stroke: #7B68EE;
+}
+
+
+
+/* DarkOrange */
+.memory0_O {
+    stroke: #9932CC;
+}
+
+/* DarkOrchid */
+.memory1_O {
+    stroke: #2E8B57;
+}
+
+/* SeaGreen */
+.memory2_O {
+    stroke: #FF1493;
+}
+
+/* DeepPink */
+.memory3_O {
+    stroke: #7B68EE;
+}
+
+/* DarkOrange */
+.memory4_O {
+    stroke: #9932CC;
+}
+
+/* DarkOrchid */
+.memory5_O {
+    stroke: #2E8B57;
+}
+
+/* SeaGreen */
+.memory6_O {
+    stroke: #FF1493;
+}
+
+/* DeepPink */
+.memory7_O {
+    stroke: #7B68EE;
+}
+
+
+/* Chartreuse */
+.O0 {
+    stroke: #5F9EA0;
+}
+
+/* FireBrick */
+.O1 {
+    stroke: #7FFF00;
+}
+
+/* LightSeaGreen */
+.O2 {
+    stroke: #B22222;
+}
+
+/* HotPink */
+.O3 {
+    stroke: #20B2AA;
+}
+
+/* Chartreuse */
+.O4 {
+    stroke: #5F9EA0;
+}
+
+/* FireBrick */
+.O5 {
+    stroke: #7FFF00;
+}
+
+/* LightSeaGreen */
+.O6 {
+    stroke: #B22222;
+}
+
+/* HotPink */
+.O7 {
+    stroke: #20B2AA;
+}
+
+/* Chartreuse */
+.ADDR0 {
+    stroke: #5F9EA0;
+}
+
+/* FireBrick */
+.ADDR1 {
+    stroke: #7FFF00;
+}
+
+/* LightSeaGreen */
+.ADDR2 {
+    stroke: #B22222;
+}
+
+/* HotPink */
+.ADDR3 {
+    stroke: #20B2AA;
+}
+
+/* Chartreuse */
+.memory0_O0 {
+    stroke: #5F9EA0;
+}
+
+/* FireBrick */
+.memory0_O1 {
+    stroke: #7FFF00;
+}
+
+/* LightSeaGreen */
+.memory0_O2 {
+    stroke: #B22222;
+}
+
+/* HotPink */
+.memory0_O3 {
+    stroke: #20B2AA;
+}
+
+/* Chartreuse */
+.memory0_O4 {
+    stroke: #5F9EA0;
+}
+
+/* FireBrick */
+.memory0_O5 {
+    stroke: #7FFF00;
+}
+
+/* LightSeaGreen */
+.memory0_O6 {
+    stroke: #B22222;
+}
+
+/* HotPink */
+.memory0_O7 {
+    stroke: #20B2AA;
+}
+
+
+/* Chartreuse */
+.memory1_O0 {
+    stroke: #5F9EA0;
+}
+
+/* FireBrick */
+.memory1_O1 {
+    stroke: #7FFF00;
+}
+
+/* LightSeaGreen */
+.memory1_O2 {
+    stroke: #B22222;
+}
+
+/* HotPink */
+.memory1_O3 {
+    stroke: #20B2AA;
+}
+
+/* Chartreuse */
+.memory1_O4 {
+    stroke: #5F9EA0;
+}
+
+/* FireBrick */
+.memory1_O5 {
+    stroke: #7FFF00;
+}
+
+/* LightSeaGreen */
+.memory1_O6 {
+    stroke: #B22222;
+}
+
+/* HotPink */
+.memory1_O7 {
+    stroke: #20B2AA;
+}
+
+
+
+/* Chartreuse */
+.bus7 {
+    stroke: #5F9EA0;
+}
+
+/* FireBrick */
+.bus6 {
+    stroke: #7FFF00;
+}
+
+/* LightSeaGreen */
+.bus5 {
+    stroke: #B22222;
+}
+
+/* HotPink */
+.bus4 {
+    stroke: #20B2AA;
+}
+
+/* Chartreuse */
+.bus3 {
+    stroke: #5F9EA0;
+}
+
+/* FireBrick */
+.bus2 {
+    stroke: #7FFF00;
+}
+
+/* LightSeaGreen */
+.bus1 {
+    stroke: #B22222;
+}
+
+/* HotPink */
+.bus0 {
+    stroke: #20B2AA;
+}
+
+
+/* Chartreuse */
+.memory2_O0 {
+    stroke: #5F9EA0;
+}
+
+/* FireBrick */
+.memory2_O1 {
+    stroke: #7FFF00;
+}
+
+/* LightSeaGreen */
+.memory2_O2 {
+    stroke: #B22222;
+}
+
+/* HotPink */
+.memory2_O3 {
+    stroke: #20B2AA;
+}
+
+/* Chartreuse */
+.memory2_O4 {
+    stroke: #5F9EA0;
+}
+
+/* FireBrick */
+.memory2_O5 {
+    stroke: #7FFF00;
+}
+
+/* LightSeaGreen */
+.memory2_O6 {
+    stroke: #B22222;
+}
+
+/* HotPink */
+.memory2_O7 {
+    stroke: #20B2AA;
+}
+
+
+
+/* Chartreuse */
+.memory3_O0 {
+    stroke: #5F9EA0;
+}
+
+/* FireBrick */
+.memory3_O1 {
+    stroke: #7FFF00;
+}
+
+/* LightSeaGreen */
+.memory3_O2 {
+    stroke: #B22222;
+}
+
+/* HotPink */
+.memory3_O3 {
+    stroke: #20B2AA;
+}
+
+/* Chartreuse */
+.memory3_O4 {
+    stroke: #5F9EA0;
+}
+
+/* FireBrick */
+.memory3_O5 {
+    stroke: #7FFF00;
+}
+
+/* LightSeaGreen */
+.memory3_O6 {
+    stroke: #B22222;
+}
+
+/* HotPink */
+.memory3_O7 {
+    stroke: #20B2AA;
+}
+
+
+/* Chartreuse */
+.memory4_O0 {
+    stroke: #5F9EA0;
+}
+
+/* FireBrick */
+.memory4_O1 {
+    stroke: #7FFF00;
+}
+
+/* LightSeaGreen */
+.memory4_O2 {
+    stroke: #B22222;
+}
+
+/* HotPink */
+.memory4_O3 {
+    stroke: #20B2AA;
+}
+
+/* Chartreuse */
+.memory4_O4 {
+    stroke: #5F9EA0;
+}
+
+/* FireBrick */
+.memory4_O5 {
+    stroke: #7FFF00;
+}
+
+/* LightSeaGreen */
+.memory4_O6 {
+    stroke: #B22222;
+}
+
+/* HotPink */
+.memory4_O7 {
+    stroke: #20B2AA;
+}
+
+
+
+/* Chartreuse */
+.memory5_O0 {
+    stroke: #5F9EA0;
+}
+
+/* FireBrick */
+.memory5_O1 {
+    stroke: #7FFF00;
+}
+
+/* LightSeaGreen */
+.memory5_O2 {
+    stroke: #B22222;
+}
+
+/* HotPink */
+.memory5_O3 {
+    stroke: #20B2AA;
+}
+
+/* Chartreuse */
+.memory5_O4 {
+    stroke: #5F9EA0;
+}
+
+/* FireBrick */
+.memory5_O5 {
+    stroke: #7FFF00;
+}
+
+/* LightSeaGreen */
+.memory5_O6 {
+    stroke: #B22222;
+}
+
+/* HotPink */
+.memory5_O7 {
+    stroke: #20B2AA;
+}
+
+
+/* Chartreuse */
+.memory6_O0 {
+    stroke: #5F9EA0;
+}
+
+/* FireBrick */
+.memory6_O1 {
+    stroke: #7FFF00;
+}
+
+/* LightSeaGreen */
+.memory6_O2 {
+    stroke: #B22222;
+}
+
+/* HotPink */
+.memory6_O3 {
+    stroke: #20B2AA;
+}
+
+/* Chartreuse */
+.memory6_O4 {
+    stroke: #5F9EA0;
+}
+
+/* FireBrick */
+.memory6_O5 {
+    stroke: #7FFF00;
+}
+
+/* LightSeaGreen */
+.memory6_O6 {
+    stroke: #B22222;
+}
+
+/* HotPink */
+.memory6_O7 {
+    stroke: #20B2AA;
+}
+
+
+/* Chartreuse */
+.memory7_O0 {
+    stroke: #5F9EA0;
+}
+
+/* FireBrick */
+.memory7_O1 {
+    stroke: #7FFF00;
+}
+
+/* LightSeaGreen */
+.memory7_O2 {
+    stroke: #B22222;
+}
+
+/* HotPink */
+.memory7_O3 {
+    stroke: #20B2AA;
+}
+
+/* Chartreuse */
+.memory7_O4 {
+    stroke: #5F9EA0;
+}
+
+/* FireBrick */
+.memory7_O5 {
+    stroke: #7FFF00;
+}
+
+/* LightSeaGreen */
+.memory7_O6 {
+    stroke: #B22222;
+}
+
+/* HotPink */
+.memory7_O7 {
+    stroke: #20B2AA;
+}
+
+
+/* Chartreuse */
+.memory8_O0 {
+    stroke: #5F9EA0;
+}
+
+/* FireBrick */
+.memory8_O1 {
+    stroke: #7FFF00;
+}
+
+/* LightSeaGreen */
+.memory8_O2 {
+    stroke: #B22222;
+}
+
+/* HotPink */
+.memory8_O3 {
+    stroke: #20B2AA;
+}
+
+/* Chartreuse */
+.memory8_O4 {
+    stroke: #5F9EA0;
+}
+
+/* FireBrick */
+.memory8_O5 {
+    stroke: #7FFF00;
+}
+
+/* LightSeaGreen */
+.memory8_O6 {
+    stroke: #B22222;
+}
+
+/* HotPink */
+.memory8_O7 {
+    stroke: #20B2AA;
+}
+
+
+/* Chartreuse */
+.memory9_O0 {
+    stroke: #5F9EA0;
+}
+
+/* FireBrick */
+.memory9_O1 {
+    stroke: #7FFF00;
+}
+
+/* LightSeaGreen */
+.memory9_O2 {
+    stroke: #B22222;
+}
+
+/* HotPink */
+.memory9_O3 {
+    stroke: #20B2AA;
+}
+
+/* Chartreuse */
+.memory9_O4 {
+    stroke: #5F9EA0;
+}
+
+/* FireBrick */
+.memory9_O5 {
+    stroke: #7FFF00;
+}
+
+/* LightSeaGreen */
+.memory9_O6 {
+    stroke: #B22222;
+}
+
+/* HotPink */
+.memory9_O7 {
+    stroke: #20B2AA;
+}
+
+
+
+/* Chartreuse */
+.memory10_O0 {
+    stroke: #5F9EA0;
+}
+
+/* FireBrick */
+.memory10_O1 {
+    stroke: #7FFF00;
+}
+
+/* LightSeaGreen */
+.memory10_O2 {
+    stroke: #B22222;
+}
+
+/* HotPink */
+.memory10_O3 {
+    stroke: #20B2AA;
+}
+
+/* Chartreuse */
+.memory10_O4 {
+    stroke: #5F9EA0;
+}
+
+/* FireBrick */
+.memory10_O5 {
+    stroke: #7FFF00;
+}
+
+/* LightSeaGreen */
+.memory10_O6 {
+    stroke: #B22222;
+}
+
+/* HotPink */
+.memory10_O7 {
+    stroke: #20B2AA;
+}
+
+
+/* Chartreuse */
+.memory11_O0 {
+    stroke: #5F9EA0;
+}
+
+/* FireBrick */
+.memory11_O1 {
+    stroke: #7FFF00;
+}
+
+/* LightSeaGreen */
+.memory11_O2 {
+    stroke: #B22222;
+}
+
+/* HotPink */
+.memory11_O3 {
+    stroke: #20B2AA;
+}
+
+/* Chartreuse */
+.memory11_O4 {
+    stroke: #5F9EA0;
+}
+
+/* FireBrick */
+.memory11_O5 {
+    stroke: #7FFF00;
+}
+
+/* LightSeaGreen */
+.memory11_O6 {
+    stroke: #B22222;
+}
+
+/* HotPink */
+.memory11_O7 {
+    stroke: #20B2AA;
+}
+
+
+/* Chartreuse */
+.memory12_O0 {
+    stroke: #5F9EA0;
+}
+
+/* FireBrick */
+.memory12_O1 {
+    stroke: #7FFF00;
+}
+
+/* LightSeaGreen */
+.memory12_O2 {
+    stroke: #B22222;
+}
+
+/* HotPink */
+.memory12_O3 {
+    stroke: #20B2AA;
+}
+
+/* Chartreuse */
+.memory12_O4 {
+    stroke: #5F9EA0;
+}
+
+/* FireBrick */
+.memory12_O5 {
+    stroke: #7FFF00;
+}
+
+/* LightSeaGreen */
+.memory12_O6 {
+    stroke: #B22222;
+}
+
+/* HotPink */
+.memory12_O7 {
+    stroke: #20B2AA;
+}
+
+
+
+/* Chartreuse */
+.memory13_O0 {
+    stroke: #5F9EA0;
+}
+
+/* FireBrick */
+.memory13_O1 {
+    stroke: #7FFF00;
+}
+
+/* LightSeaGreen */
+.memory13_O2 {
+    stroke: #B22222;
+}
+
+/* HotPink */
+.memory13_O3 {
+    stroke: #20B2AA;
+}
+
+/* Chartreuse */
+.memory13_O4 {
+    stroke: #5F9EA0;
+}
+
+/* FireBrick */
+.memory13_O5 {
+    stroke: #7FFF00;
+}
+
+/* LightSeaGreen */
+.memory13_O6 {
+    stroke: #B22222;
+}
+
+/* HotPink */
+.memory13_O7 {
+    stroke: #20B2AA;
+}
+
+
+/* Chartreuse */
+.memory14_O0 {
+    stroke: #5F9EA0;
+}
+
+/* FireBrick */
+.memory14_O1 {
+    stroke: #7FFF00;
+}
+
+/* LightSeaGreen */
+.memory14_O2 {
+    stroke: #B22222;
+}
+
+/* HotPink */
+.memory14_O3 {
+    stroke: #20B2AA;
+}
+
+/* Chartreuse */
+.memory14_O4 {
+    stroke: #5F9EA0;
+}
+
+/* FireBrick */
+.memory14_O5 {
+    stroke: #7FFF00;
+}
+
+/* LightSeaGreen */
+.memory14_O6 {
+    stroke: #B22222;
+}
+
+/* HotPink */
+.memory14_O7 {
+    stroke: #20B2AA;
+}
+
+
+/* Chartreuse */
+.memory15_O0 {
+    stroke: #5F9EA0;
+}
+
+/* FireBrick */
+.memory15_O1 {
+    stroke: #7FFF00;
+}
+
+/* LightSeaGreen */
+.memory15_O2 {
+    stroke: #B22222;
+}
+
+/* HotPink */
+.memory15_O3 {
+    stroke: #20B2AA;
+}
+
+/* Chartreuse */
+.memory15_O4 {
+    stroke: #5F9EA0;
+}
+
+/* FireBrick */
+.memory15_O5 {
+    stroke: #7FFF00;
+}
+
+/* LightSeaGreen */
+.memory15_O6 {
+    stroke: #B22222;
+}
+
+/* HotPink */
+.memory15_O7 {
+    stroke: #20B2AA;
+}
+
+
+
+/* DarkOrchid */
+.and9_OUT {
+    stroke: #2E8B57;
+}
+
+/* SeaGreen */
+.and10_OUT {
+    stroke: #FF1493;
+}
+
+/* DeepPink */
+.and11_OUT {
+    stroke: #7B68EE;
+}
+
+/* DeepPink */
+.and12_OUT {
+    stroke: #7B68EE;
+}
+
+/* DarkOrange */
+.and13_OUT {
+    stroke: #9932CC;
+}
+
+/* DarkOrchid */
+.and14_OUT {
+    stroke: #2E8B57;
+}
+
+/* SeaGreen */
+.and15_OUT {
+    stroke: #FF1493;
+}
+
+
+
+/* DarkOrange */
+.Y8 {
+    stroke: #9932CC;
+}
+
+/* DarkOrchid */
+.Y9 {
+    stroke: #2E8B57;
+}
+
+/* SeaGreen */
+.Y10 {
+    stroke: #FF1493;
+}
+
+/* DeepPink */
+.Y11 {
+    stroke: #7B68EE;
+}
+
+/* DarkOrange */
+.Y12 {
+    stroke: #9932CC;
+}
+
+/* DarkOrchid */
+.Y13 {
+    stroke: #2E8B57;
+}
+
+/* SeaGreen */
+.Y14 {
+    stroke: #FF1493;
+}
+
+/* DeepPink */
+.Y15 {
+    stroke: #7B68EE;
+}
+
+/* DarkOrange */
+.DIPA0 {
+    stroke: #9932CC;
+}
+
+/* DarkOrchid */
+.DIPA1 {
+    stroke: #2E8B57;
+}
+
+/* SeaGreen */
+.DIPA2 {
+    stroke: #FF1493;
+}
+
+/* DeepPink */
+.DIPA3 {
+    stroke: #7B68EE;
+}
+
+.MODE, .MI, .WRITE, .RI, .RO {
+    stroke: #7B68EE;
+}
+
+/* DarkOrange */
+.DIPD0 {
+    stroke: #9932CC;
+}
+
+/* DarkOrchid */
+.DIPD1 {
+    stroke: #2E8B57;
+}
+
+/* SeaGreen */
+.DIPD2 {
+    stroke: #FF1493;
+}
+
+/* DeepPink */
+.DIPD3 {
+    stroke: #7B68EE;
+}
+
+/* DarkOrange */
+.DIPD4 {
+    stroke: #9932CC;
+}
+
+/* DarkOrchid */
+.DIPD5 {
+
+}
+
+/* SeaGreen */
+.DIPD6 {
+    stroke: #FF1493;
+}
+
+/* DeepPink */
+.DIPD7 {
+    stroke: #7B68EE;
+}
+
+
+/* SeaGreen */
+.mux0_Y0, .mux0_Y1, .mux0_Y2, .mux0_Y3, .mux0_Y4, .mux0_Y5, .mux0_Y6, .mux0_Y7 {
+    stroke: #FF1493;
+}
+
+/* SeaGreen */
+.ram_O0, .ram_O1, .ram_O2, .ram_O3, .ram_O4, .ram_O5, .ram_O6, .ram_O7 {
+    stroke: #FF1493;
+}
+
+.tri8_OUT0, .tri8_OUT1, .tri8_OUT2, .tri8_OUT3, .tri8_OUT4, .tri8_OUT5, .tri8_OUT6, .tri8_OUT7 {
+    stroke: #2E8B57;
+}
+
+.T0, .T1, .T2, .T3, .T4 {
+    stroke: #FF1493;
+}
+
+.I0, .I1, .I2, .I3 {
+    stroke: #FF1493;
+}
+
+.CF, .ZF {
+    stroke: #FF1493;
+}
