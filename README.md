@@ -5,6 +5,8 @@ Hosted [HERE](https://connors-sk.github.io/8-bit-cpu-simulator/).
 
 Code for emulation inspired by [Digital Circuit Simulator in JavaScript: 7400 Subscriber Special!](https://www.youtube.com/watch?v=anZPHeA0WKU&t=7s&ab_channel=LowByteProductions)
 
+SVGs for diagrams created in [Digital](https://github.com/hneemann/Digital).
+
 ## Supported instructions
 ```
 (0000) NOP + value: No Operation is performed.
