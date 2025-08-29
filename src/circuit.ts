@@ -105,7 +105,7 @@ fetch('./' + circuit + '.svg')
                 elements.forEach(el => {
                     el.addEventListener('click', (event: Event) => {
                         let c = el.classList[0];
-                        window.open('/circuit.html?circuit=' + c, '_blank');
+                        window.open('./circuit.html?circuit=' + c, '_blank');
                     })
                 })
             }
