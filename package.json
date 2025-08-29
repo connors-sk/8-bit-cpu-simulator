@@ -5,6 +5,7 @@
   "main": "test.js",
   "scripts": {
     "start": "webpack serve --open",
+    "build": "webpack",
     "test": "jest",
     "prettier": "prettier --config .prettierrc 'src/**/*.ts' --write"
   },
