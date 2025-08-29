@@ -19,7 +19,7 @@ jobs:
           node-version: 18
       - name: Setup Pages
         uses: actions/configure-pages@v5
-      - run: npm ci
+      - run: npm install
       - run: npm run build
       - run: npm test
       - name: Upload artifact
